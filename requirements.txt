@@ -1,0 +1,5 @@
+# Install ALL providers, or only what you need:
+openai>=1.30.0          # for LLM_PROVIDER=openai
+anthropic>=0.30.0       # for LLM_PROVIDER=claude
+google-genai>=1.0.0     # for LLM_PROVIDER=gemini
+python-dotenv>=1.0.0    # auto-load .env file

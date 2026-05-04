@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\\\\src\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\\\\output\")",
+      "Bash(Write-Output \"dirs created\")",
+      "PowerShell(Get-ChildItem -Recurse \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\" | Where-Object { -not $_.PSIsContainer } | Select-Object FullName)",
+      "PowerShell(Get-ChildItem -Recurse \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\" | ForEach-Object { $_.FullName })",
+      "PowerShell(pandoc *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(& \"C:\\\\Program Files\\\\Pandoc\\\\pandoc.exe\" --version | Select-Object -First 1)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\"; $env:PYTHONPATH = \"src\"; python src/main.py 2>&1; Write-Host \"Exit: $LASTEXITCODE\")",
+      "PowerShell(py *)",
+      "WebFetch(domain:substack.com)"
+    ]
+  }
+}
