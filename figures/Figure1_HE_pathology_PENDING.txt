@@ -1,0 +1,2 @@
+待補：H&E 病理切片照片
+需求：stratified squamous epithelium + keratin fragments，建議 400x magnification，300 dpi 以上

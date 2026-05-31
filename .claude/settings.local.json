@@ -1,18 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\\\\src\")",
-      "Bash(Out-Null)",
-      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\\\\output\")",
-      "Bash(Write-Output \"dirs created\")",
-      "PowerShell(Get-ChildItem -Recurse \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\" | Where-Object { -not $_.PSIsContainer } | Select-Object FullName)",
-      "PowerShell(Get-ChildItem -Recurse \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\" | ForEach-Object { $_.FullName })",
+      "Bash(git clone *)",
+      "Bash(git *)",
+      "Bash(gh api *)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "PowerShell(git clone https://github.com/Imbad0202/academic-research-skills.git \"$env:USERPROFILE\\\\academic-research-skills\" 2>&1)",
+      "PowerShell(ls \"$env:USERPROFILE\\\\academic-research-skills\")",
       "PowerShell(pandoc *)",
-      "PowerShell(Get-Command *)",
-      "PowerShell(& \"C:\\\\Program Files\\\\Pandoc\\\\pandoc.exe\" --version | Select-Object -First 1)",
-      "PowerShell(Set-Location \"C:\\\\Users\\\\user\\\\OneDrive\\\\桌面\\\\project\\\\med_paper_writer\"; $env:PYTHONPATH = \"src\"; python src/main.py 2>&1; Write-Host \"Exit: $LASTEXITCODE\")",
-      "PowerShell(py *)",
-      "WebFetch(domain:substack.com)"
+      "PowerShell(py *)"
     ]
   }
 }
