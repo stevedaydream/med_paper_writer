@@ -1,9 +1,12 @@
 A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal Submucosal
 Malignancy: A Case Report
 
-Wang Tzu-Chien, NP¹ and Chen Shu-Hung, MD¹
+Wang Tzu-Chien, NP¹, Chen Shao-Kuan, MD², Wu Mei-Chih, NP¹,
+and Chen Shu-Hung, MD¹
 
 ¹ Department of Colorectal Surgery, Xizhi Cathay General Hospital,
+New Taipei City, Taiwan
+² Department of Urology, Xizhi Cathay General Hospital,
 New Taipei City, Taiwan
 
 Corresponding author: Chen Shu-Hung, MD, Department of Colorectal
@@ -77,8 +80,8 @@ He denied weight loss, fever, or family history of malignancy; blood
 pressure on arrival was 168/112 mmHg.
 Physical examination revealed abdominal distension and lower abdominal
 tenderness without peritoneal signs. Digital rectal examination on
-hospital day two identified a large, firm mass at the 2 o'clock position
-of the left lateral rectal wall, palpable approximately 4 cm from the
+hospital day two identified a large, hard mass at the left-side 2 o'clock
+position with luminal obstruction, palpable approximately 4 cm from the
 anal verge. Laboratory investigations showed leukocytosis (WBC 12,310/μL)
 and an elevated C-reactive protein (2.083 mg/dL).
 
@@ -105,16 +108,17 @@ feature inconsistent with hypervascular GIST or enhancing lymphoma.
 
 MRI was not performed; the CT findings combined with negative
 colonoscopy and normal tumour markers were considered sufficient to
-guide surgical decision-making. The mass's proximity to the left ureter raised concern for
-intraoperative ureteral injury; cardiac and pulmonary evaluation
-confirmed low surgical risk.
+guide surgical decision-making. Urology consultation with independent CT review identified Grade 3 left
+hydronephrosis (Society of Fetal Urology grading) — not documented in
+the formal radiology report — confirming ureteral compression by the
+mass; cardiac and pulmonary evaluation confirmed low surgical risk.
 
 On March 10, 2026, the patient underwent laparotomy. A ureteral J-stent
 (6F × 26 cm, Double-J) was inserted cystoscopically under general
 anaesthesia prior to laparotomy to protect the left ureter during
 dissection. Intra-operative findings confirmed a well-encapsulated
-pelvic floor mass with Grade 3 left hydronephrosis (Society of Fetal Urology
-grading). The cyst was intentionally decompressed by aspiration to facilitate
+pelvic floor mass with Grade 3 left hydronephrosis, consistent with the
+pre-operative urological assessment. The cyst was intentionally decompressed by aspiration to facilitate
 dissection; the cyst wall and fibrous capsule were then completely
 excised without inadvertent rupture or intraperitoneal spillage.
 Estimated blood loss was minimal. Post-operative recovery was uneventful: flatus was noted on day 3,
@@ -295,8 +299,8 @@ Table 1. Clinical timeline of the present case.
 | ~2 weeks before presentation | Onset of lower abdominal pain |
 | ~1 week before presentation | Hematuria identified on urinary catheterisation |
 | March 1, 2026 | Emergency presentation; CECT: 10 cm non-enhancing pelvic mass with apparent right internal iliac lymphadenopathy; leukocytosis and elevated CRP |
-| March 2, 2026 | Digital rectal examination: large firm mass, left lateral rectal wall, 4 cm from anal verge |
-| March 3–9, 2026 | Colonoscopy: no mucosal lesion; tumour markers (AFP, CEA, CA19-9): within normal limits; cardiac and pulmonary pre-operative evaluation: low surgical risk |
+| March 2, 2026 | Digital rectal examination: large hard mass at left-side 2 o'clock with luminal obstruction, 4 cm from anal verge |
+| March 3–9, 2026 | Colonoscopy: no mucosal lesion; tumour markers (AFP, CEA, CA19-9): within normal limits; urology consultation — Grade 3 left hydronephrosis identified on CT review (not in formal radiology report); cardiac and pulmonary pre-operative evaluation: low surgical risk |
 | March 10, 2026 | Cystoscopic Double-J ureteral stenting + laparotomy; complete excision of pelvic floor cyst; Grade 3 left hydronephrosis confirmed intraoperatively |
 | Post-operative day 3 | First flatus |
 | Post-operative day 4 | Oral diet resumed |
@@ -343,11 +347,13 @@ Author Contributions (CRediT):
 
 - Conceptualization: 陳樞鴻
 
-- Data curation: 王子建
+- Data curation: 王子建, 吳美智
+
+- Investigation: 陳紹寬, 吳美智
 
 - Writing -- original draft: 王子建
 
-- Writing -- review & editing: 陳樞鴻
+- Writing -- review & editing: 陳樞鴻, 陳紹寬
 
 - Supervision: 陳樞鴻
 
