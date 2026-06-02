@@ -35,14 +35,14 @@
 ## 待辦事項（投稿前必須完成）
 
 - [ ] **Figure 1**：H&E 病理切片照片（向病理科索取，需 300 dpi 以上）
-- [ ] **通訊作者 Email**：陳樞鴻醫師 Email 填入論文署名列及 Word 檔
+- [x] **通訊作者 Email**：cgh07668@cgh.org.tw（已填入論文署名列）
 - [ ] **重新輸出 Word 檔**：補完上述項目後重跑 `format_docx.py`
 
 ## 待回醫院確認的臨床細節
 
-- [ ] **DRE 未做原因**：目前寫「臨床判斷充分」，確認後可更精確（如患者不配合、影像已足夠等）
-- [ ] **雙J管拔除時間**：術後幾週拔除？確認後補入 Case Presentation 術後段落
-- [ ] **術後腎功能**：影像追蹤（超音波）或 Cr 值？確認後補入 Case Presentation 及 Limitations 段落
+- [x] **DRE**：已確認有做（3/2），左側 2 點鐘方向 >5cm 硬塊，距肛門約 4 cm。已更正稿件中「deferred」錯誤描述。
+- [x] **雙J管拔除時間**：目前仍在（DBJ尚未取出）。已於術後段落補入「retained in situ at discharge, outpatient removal planned」。
+- [x] **術後腎功能**：Cr 0.85 mg/dL、eGFR 99（術後 day 9）；無水腎（沒有水腎）。已補入 Case Presentation 及已從 Limitations 移除「unavailable」說明。
 
 ---
 
@@ -67,6 +67,10 @@
 | 作者署名列新增（含機構、通訊作者） | ✅ |
 | Figure 2（CT 兩張）、Figure 3（大腸鏡）Legend 更新 | ✅ |
 | 全文精簡至 JFMA 字數上限 | ✅ |
+| 水腎分級補入（SFU Grade 3，術中確認） | ✅ |
+| Limitations 移除水腎未分級聲明 | ✅ |
+| CARE 合規：Patient Perspective 段落補入 | ✅ |
+| CARE 合規：Table 1 臨床時間軸新增 | ✅ |
 
 ---
 

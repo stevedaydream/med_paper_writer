@@ -9,7 +9,11 @@
       "PowerShell(git clone https://github.com/Imbad0202/academic-research-skills.git \"$env:USERPROFILE\\\\academic-research-skills\" 2>&1)",
       "PowerShell(ls \"$env:USERPROFILE\\\\academic-research-skills\")",
       "PowerShell(pandoc *)",
-      "PowerShell(py *)"
+      "PowerShell(py *)",
+      "Bash(pandoc --version)",
+      "Bash(pandoc Case_Report_Epidermoid_Cyst.md -o Case_Report_Epidermoid_Cyst_raw.docx --from markdown+superscript)",
+      "Bash(python format_docx.py)",
+      "PowerShell(Get-Command *)"
     ]
   }
 }
