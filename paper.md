@@ -97,6 +97,16 @@
 | 中文摘要 | 需作為**獨立文件**提交（含中文作者姓名） | 新增 `FJJM/Chinese_Abstract_FJJM.docx` | ✅ |
 | Authorship and Transfer of Copyright Form | 全體作者需簽署 | 下載官方表格 + 預填姓名/Email 草稿：`FJJM/FJJM_Authorship_Copyright_Transfer_Form_filled.docx` | ⏳ 待各作者簽名 |
 | 摘要字數 | ≤ 200 字（case report 為 unstructured） | 現況 141 字 | ✅ |
+| 標題頁中文資訊 | 需含中文標題、中文短標題、作者中文全名、中文服務單位、通訊作者電話 | 補齊：中文標題「骨盆底巨大硬皮囊腫擬似直腸惡性腫瘤：病例報告」、中文短標題「盆底硬皮囊腫擬似直腸腫瘤」（12字）、作者中文全名與中文單位、電話 0983701132／傳真 (02)2648-2690 | ✅ 2026-07-24 |
+| 通訊作者科別更正 | 陳樞鴻實際為一般外科，非大腸直腸外科 | 新增附註³「Department of General Surgery／一般外科」，僅套用於陳樞鴻 | ✅ 2026-07-24 |
+| 王子建／吳美智科別更正 | 兩人實際為護理部（NP），非大腸直腸外科 | 附註¹改為「Department of Nursing／護理部」 | ✅ 2026-07-24 |
+| 中文摘要字數 | 個案報告 ≤ 200 字 | 原 390 字 → 精簡至 186 字 | ✅ 2026-07-24 |
+| 主文字數 | ≤ 1,500 字 | 修正後 1,496 字（含章節標題） | ✅ 2026-07-24 |
+| 參考文獻期數 | 期刊論文不需刊出期數 | 移除 Ref 5, 8, 9 的 `(issue)` 標示 | ✅ 2026-07-24 |
+| 邊界 margin | 英文版規定 ≥3 cm | `format_docx_fjjm.py` 由 2.54cm 改為 3cm | ✅ 2026-07-24 |
+| 投稿信件（Cover Letter） | 投稿檢查表第一項 | 新增 `FJJM/Cover_Letter_FJJM.md` / `.docx` | ✅ 2026-07-24 |
+| 圖片未內嵌於投稿 Word 檔 | Google Form「Upload manuscript」欄位要求含 Figures 本體，非僅圖說 | 在 `.md` 對應圖說前以 `![](FJJM/figures/xxx.png){width=...}` 插入 4 張圖（Figure1 病理、Figure2A/2B CT、Figure3 大腸鏡），重新產出 docx（5.8MB，遠低於 100MB 上限） | ✅ 2026-07-24 |
+| 版權讓渡書格式 | Google Form 該欄位僅收 PDF/JPG，不收 docx | 用 Word COM 將 `FJJM_Authorship_Copyright_Transfer_Form_filled.docx` 轉出同名 `.pdf` | ✅ 2026-07-24 |
 | 主文字數 | ≤ 1,500 字 | 現況 1,486 字（含新增 IRB 聲明句） | ✅ |
 | 作者人數 | ≤ 5 人 | 現況 4 人 | ✅ |
 | 參考文獻 | ≤ 25 筆 | 現況 9 筆 | ✅ |
@@ -104,9 +114,10 @@
 
 ### FJJM 投稿檔案清單（`FJJM/` 資料夾）
 
-- `Case_Report_Epidermoid_Cyst_FJJM.md` — 主稿原始檔（唯一編輯來源，改稿只改這份）
-- `Case_Report_Epidermoid_Cyst_FJJM_submission.docx` — 投稿用 Word 檔
-- `Chinese_Abstract_FJJM.docx` — 獨立中文摘要文件
+- `Case_Report_Epidermoid_Cyst_FJJM.md` — 主稿原始檔（唯一編輯來源，改稿只改這份；已含中英文標題頁）
+- `Case_Report_Epidermoid_Cyst_FJJM_submission.docx` — 投稿用 Word 檔（3cm 邊界、雙倍行距）
+- `Chinese_Abstract_FJJM.docx` — 獨立中文摘要文件（含中文標題頁資訊，摘要已精簡至 186 字）
+- `Cover_Letter_FJJM.md` / `.docx` — 投稿信件（新增）
 - `FJJM_Authorship_Copyright_Transfer_Form.pdf` — 官方空白表格（存查）
 - `FJJM_Authorship_Copyright_Transfer_Form_filled.docx` — 預填姓名/Email 草稿，待列印簽名
 - 圖片沿用 `figures/Final/`（Figure1_HE_pathology.png、Figure2A/B、Figure3）
@@ -123,11 +134,22 @@ py format_docx_fjjm.py
 
 - [x] 吳美智 email：chih900818@hotmail.com（已填入 Copyright Form）
 - [x] 通訊作者（陳樞鴻）電話與傳真：0983701132（院內手機）／傳真 (02)2648-2690（教學研究室）
-- [ ] 至少 3 位推薦審稿人（姓名／機構／Email，副教授以上，無利益衝突）— Google Form 必填，尚缺
-- [ ] 全體 4 位作者親筆簽署 Copyright Transfer Form
-- [ ] 透過 Google Form 提交：https://forms.gle/6YCNaR2B4vaSE5ws5
-- [ ] 提交後寄信確認至 fjjm@mail.fju.edu.tw（三項附件：manuscript + Chinese abstract + copyright form）
+- [x] 標題頁補齊中文標題／短標題／作者中文名／中文單位／通訊作者電話（2026-07-24）
+- [x] 中文摘要精簡至 200 字以內（2026-07-24）
+- [x] Cover Letter 草稿完成，待陳樞鴻確認內容與簽名（2026-07-24）
+- [x] 推薦審稿人欄位：填寫「由編輯部指派」（2026-07-24，使用者決定）
+- [x] Google Form 文字欄位已由 Claude 透過瀏覽器自動化填寫完成（2026-07-24，草稿已自動儲存）；檔案上傳（English/Chinese abstract、Cover Letter、manuscript 含圖、copyright form PDF）由使用者手動完成
+- [x] 第二頁「Checklist for Submission」勾選完成並送出（2026-07-24）
+- [x] 透過 Google Form 提交：https://forms.gle/6YCNaR2B4vaSE5ws5（2026-07-24，已完成送出）
+- [x] 提交後確認信已寄至 fjjm@mail.fju.edu.tw（2026-07-24，已完成寄出）
+- [x] 確認信附件 manuscript 為含 4 張圖片的最新版（5.8MB），非舊版（使用者已核實，2026-07-24）
+- [ ] 全體 4 位作者親筆簽署 Copyright Transfer Form — 依須知第七項可於接受後再補簽，不須卡在投稿前（見下方說明）
+- [ ] 等待期刊編輯部回覆（分派審稿人／進入審稿流程）
+
+**投稿狀態：已於 2026-07-24 完成送出。** 後續只剩全體作者補簽 Copyright Transfer Form（可待接受後再辦），其餘等待編輯部回覆即可。
 - [ ] 建議：投稿前以 fjjm@mail.fju.edu.tw 或 (02)2905-3477 確認截稿/收費資訊（官網頁面未列明）
+
+> **簽名時機說明**：官方投稿須知檢查表第七項明載「作者簽名之投稿聲明書與版權讓渡書，亦可於本刊接受您的稿件後，再行簽署」，因此不需要在今天送出 Google Form 時就備妥簽名版——可先寄未簽名的草稿版本，待期刊來信確認方向後，全體作者再親簽補交。
 
 ### Google Form 填寫內容（截至最新更新，供送出時核對）
 
@@ -139,11 +161,11 @@ py format_docx_fjjm.py
 | Running title | Epidermoid Cyst Mimicking Rectal Cancer |
 | 作者（英文） | Wang Tzu-Chien, Chen Shao-Kuan, Wu Mei-Chih, Chen Shu-Hung |
 | 作者（中文） | 王子建、陳紹寬、吳美智、陳樞鴻 |
-| 服務機構 | Department of Colorectal Surgery / Department of Urology, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
+| 服務機構 | Department of Nursing / Department of Urology / Department of General Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
 | 通訊作者（英文） | Chen Shu-Hung |
 | 通訊作者 Email | cgh07668@cgh.org.tw |
 | 通訊作者電話/傳真 | 0983701132（院內手機）／(02)2648-2690（傳真） |
-| 通訊作者服務機構 | Department of Colorectal Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
-| 推薦審稿人 | ⏳ 尚缺（需至少 3 位） |
+| 通訊作者服務機構 | Department of General Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
+| 推薦審稿人 | 由編輯部指派 |
 | Upload abstract | FJJM/English_Abstract_FJJM.docx |
 | Upload chinese abstract | FJJM/Chinese_Abstract_FJJM.docx |

@@ -1,17 +1,33 @@
+骨盆底巨大硬皮囊腫擬似直腸惡性腫瘤：病例報告
+
 A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal
 Malignancy: A Case Report
 
+王子建¹、陳紹寬²、吳美智¹、陳樞鴻³
+
 Wang Tzu-Chien, NP¹, Chen Shao-Kuan, MD², Wu Mei-Chih, NP¹,
-and Chen Shu-Hung, MD¹
+and Chen Shu-Hung, MD³
 
-¹ Department of Colorectal Surgery, Xizhi Cathay General Hospital,
+¹ 新北市汐止區國泰綜合醫院 護理部
+Department of Nursing, Xizhi Cathay General Hospital,
 New Taipei City, Taiwan
-² Department of Urology, Xizhi Cathay General Hospital,
+² 新北市汐止區國泰綜合醫院 泌尿科
+Department of Urology, Xizhi Cathay General Hospital,
+New Taipei City, Taiwan
+³ 新北市汐止區國泰綜合醫院 一般外科
+Department of General Surgery, Xizhi Cathay General Hospital,
 New Taipei City, Taiwan
 
-Corresponding author: Chen Shu-Hung, MD, Department of Colorectal
+通訊作者：陳樞鴻，新北市汐止區國泰綜合醫院一般外科。
+電話：0983701132（院內手機）；傳真：(02)2648-2690；
+電子郵件：cgh07668@cgh.org.tw
+
+Corresponding author: Chen Shu-Hung, MD, Department of General
 Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan.
+Tel: 0983701132; Fax: (02)2648-2690;
 E-mail: cgh07668@cgh.org.tw
+
+中文短標題：盆底硬皮囊腫擬似直腸腫瘤
 
 Running title: Epidermoid Cyst Mimicking Rectal Cancer
 
@@ -46,15 +62,11 @@ diagnosis; laparotomy
 
 摘要
 
-背景： 骨盆底硬皮囊腫（epidermoid
-cyst）為罕見良性病灶，於電腦斷層掃描（CT）上易與惡性腫瘤混淆，造成診斷困難。
+背景：骨盆底硬皮囊腫為罕見良性病灶，CT上易與惡性腫瘤混淆。
 
-病例摘要：
-一名61歲男性因下腹疼痛、血尿、排便習慣改變及裡急後重就醫。對比增強CT顯示左側低位直腸旁10公分腫塊，伴見疑似轉移性淋巴結，初步鑑別診斷包括胃腸道基質瘤（GIST）、淋巴瘤及神經內分泌腫瘤。三項術前發現協助導向正確診斷：大腸鏡無黏膜病灶、腫瘤標記（CEA、AFP、C
-A19-9）均在正常範圍，以及CT對比增強掃描下腫塊未見強化。考量腫塊緊鄰左輸尿管，術前預防性置入雙J管，術中確認左側中重度腎水腫。患者接受剖腹手術完整切除骨盆底腫塊，病理報告確認為硬皮囊腫，內壁為角化鱗狀上皮，含角蛋白碎片及纖維囊壁，無皮膚附屬器構造。
+病例摘要：61歲男性因下腹痛、血尿及裡急後重就醫，CT見左側直腸旁10公分腫塊，合併疑似淋巴結轉移。大腸鏡陰性、腫瘤標記正常、CT未見強化，共同指向良性外壓性腫塊。術前置入雙J管後行剖腹手術完整切除，病理證實為硬皮囊腫。
 
-結論：
-骨盆底硬皮囊腫應列入骨盆腔腫塊之鑑別診斷，尤以大腸鏡陰性且腫瘤標記正常時更應考慮。完整手術切除為確定性治療，預後良好。
+結論：大腸鏡陰性且腫瘤標記正常之非強化性骨盆腫塊，應納入硬皮囊腫鑑別診斷；完整切除預後良好。
 
 關鍵詞： 硬皮囊腫；骨盆底；骨盆腫塊；鑑別診斷；剖腹手術
 
@@ -126,7 +138,7 @@ pelvic floor mass with moderate-to-severe left hydronephrosis, consistent with t
 pre-operative urological assessment. The cyst was intentionally decompressed by aspiration to facilitate
 dissection; the cyst wall and fibrous capsule were then completely
 excised without inadvertent rupture or intraperitoneal spillage.
-Estimated blood loss was minimal. Post-operative recovery was uneventful: flatus was noted on day 3,
+Post-operative recovery was uneventful: flatus was noted on day 3,
 oral diet was resumed on day 4, and the surgical drain was removed on
 day 7. Hematuria resolved during the post-operative hospital course.
 Renal function remained stable post-operatively (serum creatinine
@@ -162,9 +174,8 @@ epidermoid cysts can compress the rectal wall to create a CT appearance
 of a submucosal mass.[6] Second, normal tumor
 markers (CEA, AFP, CA19-9) substantially reduced the probability of
 common GI malignancies. Third, the absence of internal enhancement on
-CECT argued against hypervascular GIST and enhancing lymphoma.[5] Individually, none of these findings is specific for
-epidermoid cyst; together, they point toward a benign non-enhancing
-extrinsic cystic mass. Despite the DRE identifying a large firm mass —
+CECT argued against hypervascular GIST and enhancing lymphoma.[5] Individually, none is specific for epidermoid cyst, but together
+they suggest a benign non-enhancing extrinsic mass. Despite the DRE identifying a large firm mass —
 a finding that initially heightened malignancy concern — the clinical
 team elected direct surgical excision rather than pre-operative tissue
 biopsy, judging that the non-enhancing cystic morphology was
@@ -179,10 +190,9 @@ retrospect, regional lymphadenopathy adjacent to a large benign cystic
 mass may reflect reactive inflammation or mechanical compression rather
 than true metastasis — an interpretation consistent with the mild
 leukocytosis and CRP elevation, uniformly normal tumor markers, and
-pathological absence of malignancy. Notably,
-these nodes were contralateral to the left-sided mass,
-arguing against direct compression and favouring a reactive
-interpretation. As neither
+pathological absence of malignancy. These nodes were
+contralateral to the mass, arguing against direct compression
+and favouring a reactive cause. As neither
 nodal biopsy nor post-operative imaging was performed, the reactive
 interpretation remains inferential; clinicians should exercise caution
 in attributing lymphadenopathy to metastatic disease without a confirmed
@@ -191,8 +201,7 @@ primary.
 Pathogenesis. In this patient with no prior abdominal surgery,
 embryological sequestration of ectodermal cells within the pelvic
 mesenchyme is the most plausible mechanism, with keratin accumulating
-over decades until the lesion becomes symptomatic.[1,4] The two-month symptomatic history likely
-represents the terminal phase of a much longer subclinical course.
+over decades until the lesion becomes symptomatic.[1,4]
 
 Comparison with published cases. Prior reports share key features with
 the present case — extrinsic rectal compression, ureteral obstruction,
@@ -212,9 +221,9 @@ drainage or aspiration without wall resection carries a high risk of
 recurrence.[8] In the index case, the cyst was intentionally decompressed prior to
 wall excision; complete resection of the cyst wall with intact capsule
 was achieved without inadvertent rupture or intraperitoneal spillage,
-and post-operative recovery was uneventful. This decompression
-presupposed a benign cyst; had malignancy not been excluded, aspiration
-would have risked tumour spillage. Prognosis following complete
+and post-operative recovery was uneventful. This approach
+presupposed a benign cyst, as aspiration would risk tumour spillage
+if malignancy were present. Prognosis following complete
 resection is excellent, with recurrence rarely reported in the
 literature.[3] Malignant transformation to squamous
 cell carcinoma within a pre-existing epidermoid cyst has been documented
@@ -235,8 +244,7 @@ squamous lining in the present case excludes this entity.
 Limitations. CT Hounsfield unit values were not extracted.
 Pre-operative tissue sampling was not performed; the decision to proceed
 directly to laparotomy was based on the non-enhancing cystic morphology
-and low surgical risk, with complete excision serving as both diagnostic
-and therapeutic. MRI was not performed, limiting assessment of the
+and low surgical risk. MRI was not performed, limiting assessment of the
 lesion's compartment of origin and regional nodes. Follow-up was
 limited to the index admission; no surveillance data beyond discharge
 are available, precluding confirmation of freedom from recurrence.
@@ -287,7 +295,7 @@ References
 
 5. Bates DDB, Fernandes de Paula MC, Horvat N, Sheedy S, Lall C,
    Kassam Z, et al. Beyond adenocarcinoma: MRI of uncommon rectal
-   neoplasms and mimickers. Radiographics. 2019;40(1):205–22.
+   neoplasms and mimickers. Radiographics. 2019;40:205–22.
 
 6. Kesavan R, Parthasarathi R, Gupta A, Palanivelu C. Laparoscopic
    management of epidermoid cyst in an unusual location: a case report.
@@ -298,15 +306,17 @@ References
    patient: a case report. Int J Surg Case Rep. 2023;110:108732.
 
 8. Koppel BS, Weinberger G. Radiologic evaluation of epidermoid cyst.
-   J Natl Med Assoc. 1987;79(2):209–12.
+   J Natl Med Assoc. 1987;79:209–12.
 
 9. Hu T, Wang D, Tian Y, Yuan X, Li Y. Abdominal giant epidermoid cyst
    with squamous epithelial heterogeneous proliferation carcinoma: a case
-   report. Transl Cancer Res. 2022;11(5):1457–62.
+   report. Transl Cancer Res. 2022;11:1457–62.
 
 ------------------------------------------------------------------------
 
 Figure Legends
+
+![](FJJM/figures/Figure1_HE_pathology.png){width=6in}
 
 Figure 1. Histopathology of the excised pelvic floor mass (hematoxylin
 and eosin stain). (A) Low-power overview (1×; scale bar, 2 mm) showing
@@ -322,6 +332,8 @@ granular layer and surface lamellar keratinization. No adnexal structures are
 seen in the fields shown, consistent with an epidermoid cyst rather than
 a dermoid (mature cystic teratoma) (10×; scale bar, 200 µm).
 
+![](FJJM/figures/Figure2A_CT_coronal.png){width=3in} ![](FJJM/figures/Figure2B_CT_axial.png){width=3in}
+
 Figure 2. Contrast-enhanced CT of the abdomen and pelvis. (A) Coronal
 view demonstrating a large, well-defined pelvic floor mass with no
 internal enhancement. (B) Axial view at the level of the pelvic inlet
@@ -329,6 +341,8 @@ showing the 10 cm non-enhancing mass abutting the left lateral rectal
 wall, with apparent lymphadenopathy in the right internal iliac region
 and an incidental left renal calculus. The yellow line in panel (B)
 indicates a measurement annotation from the PACS workstation.
+
+![](FJJM/figures/Figure3_colonoscopy.png){width=4in}
 
 Figure 3. Colonoscopy image of the rectum demonstrating smooth external
 compression of the rectal wall without mucosal ulceration, friability,

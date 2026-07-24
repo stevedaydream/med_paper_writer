@@ -11,12 +11,12 @@ OUTPUT = r"C:\Users\User\Downloads\medpaper\Case_Report_Epidermoid_Cyst_FJJM_sub
 
 doc = Document(INPUT)
 
-# ── 1. Margins: 2.54 cm all sides ──────────────────────────────────────────
+# ── 1. Margins: 3 cm all sides (FJJM English instructions require ≥3 cm) ───
 for section in doc.sections:
-    section.top_margin    = Cm(2.54)
-    section.bottom_margin = Cm(2.54)
-    section.left_margin   = Cm(2.54)
-    section.right_margin  = Cm(2.54)
+    section.top_margin    = Cm(3)
+    section.bottom_margin = Cm(3)
+    section.left_margin   = Cm(3)
+    section.right_margin  = Cm(3)
 
 # ── 2. Page numbers (bottom centre) ────────────────────────────────────────
 def add_page_number(section):
