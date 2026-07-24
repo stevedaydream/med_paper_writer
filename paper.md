@@ -2,7 +2,7 @@
 
 **標題**: A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal Submucosal Malignancy: A Case Report
 
-**目標期刊**: Journal of the Formosan Medical Association (JFMA)
+**目標期刊**: Fu-Jen Journal of Medicine (FJJM)（原以 JFMA 格式準備，2026-07-20 改投 FJJM，詳見下方「FJJM 投稿轉換」章節；JFMA 版本保留於 `Final/paper/`）
 
 **作者**:
 - 第一作者：王子建 (Wang Tzu-Chien), NP — 汐止國泰綜合醫院 直腸外科
@@ -79,3 +79,71 @@
 - 手術日期：2026-03-10
 - 病人病歷號已去識別化（圖片已處理）
 - 倫理聲明、病人同意書、利益衝突聲明均已填入
+
+---
+
+## FJJM 投稿轉換（2026-07-20）
+
+來源：https://cme.fju.edu.tw/networkServices.jsp?labelID=15（及其子頁 labelID=16–19, 27）
+
+### JFMA → FJJM 格式差異與已完成調整
+
+| 項目 | FJJM 規定 | 調整內容 | 狀態 |
+|---|---|---|---|
+| 引用格式 | 方括號數字，標點後（如 `[1-3].`），非上標 | 全文 `^n^` 改為 `[n]` | ✅ |
+| Running title | < 40 字元 | 新增 "Epidermoid Cyst Mimicking Rectal Cancer"（39 字元） | ✅ |
+| 章節順序 | Main Text → References → Figures+Legends → Tables | Table 1 移至 Figure Legends 之後 | ✅ |
+| IRB 核准號 | 須寫在 Materials and Methods（本文對應 Case Presentation）段落內 | 於 Case Presentation 開頭補入 IRB 核准聲明（CGH-P115074） | ✅ |
+| 中文摘要 | 需作為**獨立文件**提交（含中文作者姓名） | 新增 `FJJM/Chinese_Abstract_FJJM.docx` | ✅ |
+| Authorship and Transfer of Copyright Form | 全體作者需簽署 | 下載官方表格 + 預填姓名/Email 草稿：`FJJM/FJJM_Authorship_Copyright_Transfer_Form_filled.docx` | ⏳ 待各作者簽名 |
+| 摘要字數 | ≤ 200 字（case report 為 unstructured） | 現況 141 字 | ✅ |
+| 主文字數 | ≤ 1,500 字 | 現況 1,486 字（含新增 IRB 聲明句） | ✅ |
+| 作者人數 | ≤ 5 人 | 現況 4 人 | ✅ |
+| 參考文獻 | ≤ 25 筆 | 現況 9 筆 | ✅ |
+| 關鍵字 | ≤ 6 個 | 現況 5 個 | ✅ |
+
+### FJJM 投稿檔案清單（`FJJM/` 資料夾）
+
+- `Case_Report_Epidermoid_Cyst_FJJM.md` — 主稿原始檔（唯一編輯來源，改稿只改這份）
+- `Case_Report_Epidermoid_Cyst_FJJM_submission.docx` — 投稿用 Word 檔
+- `Chinese_Abstract_FJJM.docx` — 獨立中文摘要文件
+- `FJJM_Authorship_Copyright_Transfer_Form.pdf` — 官方空白表格（存查）
+- `FJJM_Authorship_Copyright_Transfer_Form_filled.docx` — 預填姓名/Email 草稿，待列印簽名
+- 圖片沿用 `figures/Final/`（Figure1_HE_pathology.png、Figure2A/B、Figure3）
+
+### 重新產出 Word 檔的指令
+
+```powershell
+cd "C:\Users\User\Downloads\medpaper"
+pandoc "Case_Report_Epidermoid_Cyst_FJJM.md" -o "Case_Report_Epidermoid_Cyst_FJJM_raw.docx"
+py format_docx_fjjm.py
+```
+
+### 待辦（投稿前）
+
+- [x] 吳美智 email：chih900818@hotmail.com（已填入 Copyright Form）
+- [x] 通訊作者（陳樞鴻）電話與傳真：0983701132（院內手機）／傳真 (02)2648-2690（教學研究室）
+- [ ] 至少 3 位推薦審稿人（姓名／機構／Email，副教授以上，無利益衝突）— Google Form 必填，尚缺
+- [ ] 全體 4 位作者親筆簽署 Copyright Transfer Form
+- [ ] 透過 Google Form 提交：https://forms.gle/6YCNaR2B4vaSE5ws5
+- [ ] 提交後寄信確認至 fjjm@mail.fju.edu.tw（三項附件：manuscript + Chinese abstract + copyright form）
+- [ ] 建議：投稿前以 fjjm@mail.fju.edu.tw 或 (02)2905-3477 確認截稿/收費資訊（官網頁面未列明）
+
+### Google Form 填寫內容（截至最新更新，供送出時核對）
+
+| 欄位 | 內容 |
+|---|---|
+| Types of Articles | Case Report |
+| IRB/IACUC NO. | CGH-P115074 |
+| Article title | A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal Malignancy: A Case Report |
+| Running title | Epidermoid Cyst Mimicking Rectal Cancer |
+| 作者（英文） | Wang Tzu-Chien, Chen Shao-Kuan, Wu Mei-Chih, Chen Shu-Hung |
+| 作者（中文） | 王子建、陳紹寬、吳美智、陳樞鴻 |
+| 服務機構 | Department of Colorectal Surgery / Department of Urology, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
+| 通訊作者（英文） | Chen Shu-Hung |
+| 通訊作者 Email | cgh07668@cgh.org.tw |
+| 通訊作者電話/傳真 | 0983701132（院內手機）／(02)2648-2690（傳真） |
+| 通訊作者服務機構 | Department of Colorectal Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
+| 推薦審稿人 | ⏳ 尚缺（需至少 3 位） |
+| Upload abstract | FJJM/English_Abstract_FJJM.docx |
+| Upload chinese abstract | FJJM/Chinese_Abstract_FJJM.docx |

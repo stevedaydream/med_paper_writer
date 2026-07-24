@@ -17,7 +17,19 @@
       "Bash(pandoc \"C:\\\\Users\\\\User\\\\Downloads\\\\中65_10-1,2,4,5,6,7-1,7-2.doc\" -t plain)",
       "Bash(pandoc C:/Users/User/Downloads/__TRACKED_VAR__ -t plain)",
       "PowerShell(New-Item *)",
-      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\User\\\\Downloads\\\\medpaper\\\\DOC\" | Select-Object Name, LastWriteTime, @{N='KB';E={[math]::Round\\($_.Length/1KB,1\\)}})"
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\User\\\\Downloads\\\\medpaper\\\\DOC\" | Select-Object Name, LastWriteTime, @{N='KB';E={[math]::Round\\($_.Length/1KB,1\\)}})",
+      "Bash(python -c ' *)",
+      "Bash(pandoc --from markdown+superscript \"Case_Report_Epidermoid_Cyst.md\" -o \"Case_Report_Epidermoid_Cyst_raw.docx\")",
+      "Bash(py format_docx.py)",
+      "Bash(py -c ' *)",
+      "Bash(cd \"C:/Users/User/Downloads\" && ls -la 65_10-1_converted.docx 65_10-2_converted.docx 65_10-4.docx 65_10-5.docx 65_10-6.docx 65_10-7-1_converted.docx 65_10-7-2_converted.docx 2>&1 | sed 's/  */ /g')",
+      "Bash(py DOC/_apply_irb_edits.py)",
+      "Bash(rm -f _pi_instructions_extract.txt _dump1.txt _dump2.txt _verify.txt _apply_irb_edits.py)",
+      "Bash(ls *.txt *.py)",
+      "WebSearch",
+      "Bash(pandoc FJJM_Authorship_Copyright_Transfer_Form_filled.docx -t plain -o /tmp/copyright_form.txt)",
+      "Read(//tmp/**)",
+      "Bash(pandoc Case_Report_Epidermoid_Cyst_FJJM_submission.docx -t plain -o /tmp/submission.txt)"
     ]
   }
 }

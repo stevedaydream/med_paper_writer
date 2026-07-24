@@ -1,5 +1,5 @@
-A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal Submucosal
-Malignancy: A Case Report
+A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal Malignancy:
+A Case Report
 
 Wang Tzu-Chien, NP¹, Chen Shao-Kuan, MD², Wu Mei-Chih, NP¹,
 and Chen Shu-Hung, MD¹
@@ -34,8 +34,8 @@ structures.
 
 Conclusion: When a non-enhancing extrinsic pelvic mass is accompanied
 by negative colonoscopy and normal tumor markers, epidermoid cyst should
-be included in the differential. Complete surgical excision is
-curative.
+be included in the differential. Complete surgical excision offers an
+excellent prognosis.
 
 Keywords: epidermoid cyst; pelvic floor; pelvic mass; differential
 diagnosis; laparotomy
@@ -49,10 +49,10 @@ cyst）為罕見良性病灶，於電腦斷層掃描（CT）上易與惡性腫�
 
 病例摘要：
 一名61歲男性因下腹疼痛、血尿、排便習慣改變及裡急後重就醫。對比增強CT顯示左側低位直腸旁10公分腫塊，伴見疑似轉移性淋巴結，初步鑑別診斷包括胃腸道基質瘤（GIST）、淋巴瘤及神經內分泌腫瘤。三項術前發現協助導向正確診斷：大腸鏡無黏膜病灶、腫瘤標記（CEA、AFP、C
-A19-9）均在正常範圍，以及CT對比增強掃描下腫塊未見強化。考量腫塊緊鄰左輸尿管，術前預防性置入雙J管，術中確認左側輸水腎症。患者接受剖腹手術完整切除骨盆底腫塊，病理報告確認為硬皮囊腫，內壁為角化鱗狀上皮，含角蛋白碎片及纖維囊壁，無皮膚附屬器構造。
+A19-9）均在正常範圍，以及CT對比增強掃描下腫塊未見強化。考量腫塊緊鄰左輸尿管，術前預防性置入雙J管，術中確認左側中重度腎水腫。患者接受剖腹手術完整切除骨盆底腫塊，病理報告確認為硬皮囊腫，內壁為角化鱗狀上皮，含角蛋白碎片及纖維囊壁，無皮膚附屬器構造。
 
 結論：
-骨盆底硬皮囊腫應列入骨盆腔腫塊之鑑別診斷，尤以大腸鏡陰性且腫瘤標記正常時更應考慮。完整手術切除具治癒性，預後良好。
+骨盆底硬皮囊腫應列入骨盆腔腫塊之鑑別診斷，尤以大腸鏡陰性且腫瘤標記正常時更應考慮。完整手術切除為確定性治療，預後良好。
 
 關鍵詞： 硬皮囊腫；骨盆底；骨盆腫塊；鑑別診斷；剖腹手術
 
@@ -60,8 +60,8 @@ A19-9）均在正常範圍，以及CT對比增強掃描下腫塊未見強化。�
 
 1.  Introduction
 
-Epidermoid cysts within the pelvic floor are exceedingly rare, with
-fewer than 20 cases reported in the literature through 2024.^1–3^
+Epidermoid cysts within the pelvic floor are exceedingly rare, with, to our
+knowledge, fewer than 20 cases reported in the literature through 2024.^1–3^
 Embryological sequestration of ectopic epidermal rests is the most
 plausible pathogenic mechanism.^4^ Their capacity
 to grow large and compress adjacent pelvic structures frequently leads
@@ -89,10 +89,9 @@ Contrast-enhanced CT of the abdomen and pelvis (CECT) revealed a 10 cm
 mass at the left low rectum described as a submucosal lesion with
 apparent lymphadenopathy in the right internal iliac region, raising the
 differential diagnoses of GIST, lymphoma, and neuroendocrine tumor
-(Figure 2). Additional findings included left renal calculus and an L2 compression
-fracture; the latter was an incidental finding with no associated
-neurological symptoms and was attributed to osteoporotic changes in the
-absence of any primary malignancy identified on imaging. The patient was
+(Figure 2). Additional findings included a left renal calculus and an incidental L2
+compression fracture without neurological symptoms; its aetiology was
+not further evaluated and was presumed degenerative. The patient was
 admitted under the general surgery service for further evaluation.
 
 Three subsequent investigations were pivotal in redirecting the
@@ -108,8 +107,8 @@ feature inconsistent with hypervascular GIST or enhancing lymphoma.
 
 MRI was not performed; the CT findings combined with negative
 colonoscopy and normal tumour markers were considered sufficient to
-guide surgical decision-making. Urology consultation with independent CT review identified Grade 3 left
-hydronephrosis (Society of Fetal Urology grading) — not documented in
+guide surgical decision-making. Urology consultation with independent CT review identified
+moderate-to-severe left hydronephrosis — not documented in
 the formal radiology report — confirming ureteral compression by the
 mass; cardiac and pulmonary evaluation confirmed low surgical risk.
 
@@ -117,7 +116,7 @@ On March 10, 2026, the patient underwent laparotomy. A ureteral J-stent
 (6F × 26 cm, Double-J) was inserted cystoscopically under general
 anaesthesia prior to laparotomy to protect the left ureter during
 dissection. Intra-operative findings confirmed a well-encapsulated
-pelvic floor mass with Grade 3 left hydronephrosis, consistent with the
+pelvic floor mass with moderate-to-severe left hydronephrosis, consistent with the
 pre-operative urological assessment. The cyst was intentionally decompressed by aspiration to facilitate
 dissection; the cyst wall and fibrous capsule were then completely
 excised without inadvertent rupture or intraperitoneal spillage.
@@ -133,12 +132,12 @@ biochemistry was scheduled at six months. The patient was discharged on
 post-operative day 9 with a clean, dry wound.
 
 Gross pathological examination showed multiple firm, gray tissue
-fragments measuring up to 10.0 × 3.0 × 0.5 cm. Histopathology
-demonstrated a fibrous cystic wall lined by stratified squamous
-epithelium with keratin fragments (Figure 1). No hair follicles,
-sebaceous glands, or nuclear atypia were identified. The final
-pathological diagnosis was epidermoid cyst. The clinical timeline is
-summarised in Table 1.
+fragments measuring up to 10.0 × 3.0 × 0.5 cm. Microscopic examination
+demonstrated keratin fragments and a fibrous cystic wall lined by
+stratified squamous epithelium (Figure 1). The final pathological
+diagnosis was epidermoid cyst; unlike a dermoid cyst, no hair follicles
+or sebaceous glands were present. The clinical timeline is summarised in
+Table 1.
 
 ------------------------------------------------------------------------
 
@@ -172,8 +171,12 @@ The initial CT report described "metastatic LAP of the right internal
 iliac region," substantially raising concern for malignancy. In
 retrospect, regional lymphadenopathy adjacent to a large benign cystic
 mass may reflect reactive inflammation or mechanical compression rather
-than true metastasis — an interpretation consistent with uniformly
-normal tumor markers and pathological absence of malignancy. As neither
+than true metastasis — an interpretation consistent with the mild
+leukocytosis and CRP elevation, uniformly normal tumor markers, and
+pathological absence of malignancy. Notably,
+these nodes were contralateral to the left-sided mass,
+arguing against direct compression and favouring a reactive
+interpretation. As neither
 nodal biopsy nor post-operative imaging was performed, the reactive
 interpretation remains inferential; clinicians should exercise caution
 in attributing lymphadenopathy to metastatic disease without a confirmed
@@ -203,13 +206,16 @@ drainage or aspiration without wall resection carries a high risk of
 recurrence.^8^ In the index case, the cyst was intentionally decompressed prior to
 wall excision; complete resection of the cyst wall with intact capsule
 was achieved without inadvertent rupture or intraperitoneal spillage,
-and post-operative recovery was uneventful. Prognosis following complete
+and post-operative recovery was uneventful. This decompression
+presupposed a benign cyst; had malignancy not been excluded, aspiration
+would have risked tumour spillage. Prognosis following complete
 resection is excellent, with recurrence rarely reported in the
 literature.^3^ Malignant transformation to squamous
 cell carcinoma within a pre-existing epidermoid cyst has been documented
 in one case involving a 69-year-old male with a large abdominal cyst,
-emphasizing the importance of complete pathological sampling and
-long-term follow-up.^9^
+emphasizing the importance of complete pathological sampling,
+long-term follow-up, and caution when forgoing pre-operative tissue
+diagnosis.^9^
 
 Pathological distinction. The histopathological distinction between an
 epidermoid cyst and a dermoid cyst (mature cystic teratoma) is
@@ -218,19 +224,18 @@ glands in addition to squamous epithelium, whereas epidermoid cysts do
 not. Retrorectal tailgut cyst — another non-enhancing extrinsic pelvic
 cyst that satisfies the same diagnostic triad — is lined by columnar or
 transitional epithelium rather than keratinized squamous epithelium; the
-squamous lining in the present case excludes this entity. The absence of
-adnexal structures confirms the diagnosis of epidermoid cyst over
-dermoid cyst. Mesothelioma is excluded by the squamous epithelial
-lining; mesothelioma demonstrates a mesothelial lining positive for
-calretinin and WT-1 on immunohistochemistry.
+squamous lining in the present case excludes this entity.
 
 Limitations. CT Hounsfield unit values were not extracted.
 Pre-operative tissue sampling was not performed; the decision to proceed
 directly to laparotomy was based on the non-enhancing cystic morphology
 and low surgical risk, with complete excision serving as both diagnostic
-and therapeutic — a limitation that should be recognised in the absence
-of pre-operative histological confirmation. The reactive interpretation
-of regional lymphadenopathy remains inferential.
+and therapeutic. MRI was not performed, limiting assessment of the
+lesion's compartment of origin and regional nodes. Follow-up was
+limited to the index admission; no surveillance data beyond discharge
+are available, precluding confirmation of freedom from recurrence.
+The reactive interpretation of regional lymphadenopathy remains
+inferential.
 
 ------------------------------------------------------------------------
 
@@ -239,9 +244,13 @@ of regional lymphadenopathy remains inferential.
 Large pelvic floor epidermoid cysts can convincingly mimic rectal
 submucosal malignancy on CT. The combination of negative colonoscopy,
 normal tumor markers, and a non-enhancing mass should prompt inclusion
-of epidermoid cyst in the differential and proceed to surgical excision
-for histopathological confirmation. Prophylactic ureteral stenting should be considered when the mass is in
-proximity to the ureter. Complete excision is curative.
+of epidermoid cyst in the differential of an extrinsic pelvic mass;
+because non-enhancement does not exclude a cystic malignancy, definitive
+diagnosis rests on histopathology of the excised specimen.
+Prophylactic ureteral stenting should be considered when the mass lies
+in proximity to the ureter. Complete excision offers an excellent
+prognosis, though follow-up is required to confirm absence of
+recurrence.
 
 ------------------------------------------------------------------------
 
@@ -300,8 +309,8 @@ Table 1. Clinical timeline of the present case.
 | ~1 week before presentation | Hematuria identified on urinary catheterisation |
 | March 1, 2026 | Emergency presentation; CECT: 10 cm non-enhancing pelvic mass with apparent right internal iliac lymphadenopathy; leukocytosis and elevated CRP |
 | March 2, 2026 | Digital rectal examination: large hard mass at left-side 2 o'clock with luminal obstruction, 4 cm from anal verge |
-| March 3–9, 2026 | Colonoscopy: no mucosal lesion; tumour markers (AFP, CEA, CA19-9): within normal limits; urology consultation — Grade 3 left hydronephrosis identified on CT review (not in formal radiology report); cardiac and pulmonary pre-operative evaluation: low surgical risk |
-| March 10, 2026 | Cystoscopic Double-J ureteral stenting + laparotomy; complete excision of pelvic floor cyst; Grade 3 left hydronephrosis confirmed intraoperatively |
+| March 3–9, 2026 | Colonoscopy: no mucosal lesion; tumour markers (AFP, CEA, CA19-9): within normal limits; urology consultation — moderate-to-severe left hydronephrosis identified on CT review (not in formal radiology report); cardiac and pulmonary pre-operative evaluation: low surgical risk |
+| March 10, 2026 | Cystoscopic Double-J ureteral stenting + laparotomy; complete excision of pelvic floor cyst; moderate-to-severe left hydronephrosis confirmed intraoperatively |
 | Post-operative day 3 | First flatus |
 | Post-operative day 4 | Oral diet resumed |
 | Post-operative day 7 | Surgical drain removed |
@@ -312,12 +321,19 @@ Table 1. Clinical timeline of the present case.
 
 Figure Legends
 
-Figure 1. Histopathological section of the excised pelvic floor mass
-(hematoxylin and eosin stain). The cyst wall is composed of dense
-fibrous tissue lined by stratified squamous epithelium with a granular
-layer. The cyst lumen contains laminated keratin fragments. No hair
-follicles or sebaceous glands are identified, consistent with an
-epidermoid cyst.
+Figure 1. Histopathology of the excised pelvic floor mass (hematoxylin
+and eosin stain). (A) Low-power overview (1×; scale bar, 2 mm) showing
+the collapsed cyst wall folded upon itself — a thin stratified squamous
+epithelial lining overlying a fibrous wall, with abundant laminated
+keratin; the lumen is largely empty following intraoperative
+decompression. (B) The keratin consists of loose, wavy, lamellated
+eosinophilic debris (4×; scale bar, 500 µm). (C) The cyst is lined by
+stratified squamous epithelium overlying a dense fibrous wall containing
+congested blood vessels (4×; scale bar, 500 µm). (D) Higher
+magnification confirms the stratified squamous lining with a well-formed
+granular layer and surface lamellar keratinization. No adnexal structures are
+seen in the fields shown, consistent with an epidermoid cyst rather than
+a dermoid (mature cystic teratoma) (10×; scale bar, 200 µm).
 
 Figure 2. Contrast-enhanced CT of the abdomen and pelvis. (A) Coronal
 view demonstrating a large, well-defined pelvic floor mass with no
@@ -337,8 +353,9 @@ the bowel.
 Mandatory Disclosures
 
 Ethics Declaration: This case report was conducted in accordance with
-the Declaration of Helsinki. Institutional review board approval was
-obtained / waived for case reports at the reporting institution.
+the Declaration of Helsinki. Institutional review board approval for
+this case report was obtained from the Institutional Review Board of
+Xizhi Cathay General Hospital (approval number: CGH-P115074).
 
 Patient Consent: Written informed consent was obtained from the patient
 for publication of this case report and any accompanying images.
@@ -358,6 +375,10 @@ Author Contributions (CRediT):
 - Supervision: 陳樞鴻
 
 Conflict of Interest: The authors declare no conflicts of interest.
+
+Guarantor: Chen Shu-Hung (corresponding author) accepts full
+responsibility for the work, had access to the data, and controlled the
+decision to publish.
 
 Funding: No funding was received for this work.
 
