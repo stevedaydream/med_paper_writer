@@ -218,7 +218,7 @@ irb@cgh.org.tw
 
 | 角色 | 姓名 | 科別 | Email |
 |---|---|---|---|
-| 計畫主持人（通訊作者） | 陳樞鴻 MD | 直腸外科 | cgh07668@cgh.org.tw |
+| 計畫主持人（通訊作者） | 陳樞鴻 MD | 直腸外科 | colonchen@gmail.com |
 | 協同主持人 | 陳紹寬 MD | 泌尿科 | cgh05315@cgh.org.tw |
 | 研究人員（第一作者） | 王子建 NP | 護理科| cgh380131@cgh.org.tw |
 | 研究人員 | 吳美智 SA | 護理科 | — |

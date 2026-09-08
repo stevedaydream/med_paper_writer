@@ -11,7 +11,7 @@ New Taipei City, Taiwan
 
 Corresponding author: Chen Shu-Hung, MD, Department of Colorectal
 Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan.
-E-mail: cgh07668@cgh.org.tw
+E-mail: colonchen@gmail.com
 
 ------------------------------------------------------------------------
 

@@ -1,0 +1,1343 @@
+<title>骨盆底硬皮囊腫投稿全流程</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --ground:        #F4F6F5;
+  --surface:       #FFFFFF;
+  --sunk:          #EAEEEC;
+  --ink:           #16211F;
+  --ink-soft:      #4A5754;
+  --ink-faint:     #7C8A86;
+  --rule:          #D6DCD9;
+  --rule-strong:   #B9C3BF;
+  --accent:        #0F6B63;
+  --accent-soft:   #E1EFEC;
+  --seal:          #A8342A;
+  --seal-soft:     #F7E7E4;
+  --amber:         #8A6414;
+  --amber-soft:    #F6EEDC;
+  --shadow:        0 1px 2px rgba(22,33,31,.05), 0 8px 24px -16px rgba(22,33,31,.28);
+
+  --f-display: "Noto Serif TC", "Songti TC", serif;
+  --f-body:    "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --f-mono:    "IBM Plex Mono", "Cascadia Mono", ui-monospace, monospace;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:      #101615;
+    --surface:     #18211F;
+    --sunk:        #0B100F;
+    --ink:         #E7EDEA;
+    --ink-soft:    #A6B4B0;
+    --ink-faint:   #74827E;
+    --rule:        #283330;
+    --rule-strong: #3A4844;
+    --accent:      #55B9AB;
+    --accent-soft: #14302C;
+    --seal:        #E38C7E;
+    --seal-soft:   #33201D;
+    --amber:       #D9AD5A;
+    --amber-soft:  #2C2517;
+    --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground:      #101615;
+  --surface:     #18211F;
+  --sunk:        #0B100F;
+  --ink:         #E7EDEA;
+  --ink-soft:    #A6B4B0;
+  --ink-faint:   #74827E;
+  --rule:        #283330;
+  --rule-strong: #3A4844;
+  --accent:      #55B9AB;
+  --accent-soft: #14302C;
+  --seal:        #E38C7E;
+  --seal-soft:   #33201D;
+  --amber:       #D9AD5A;
+  --amber-soft:  #2C2517;
+  --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 15.5px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: var(--surface);
+}
+.masthead-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 46px 28px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.eyebrow {
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+}
+.stamp {
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  letter-spacing: .1em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  padding: 2px 8px;
+}
+h1 {
+  font-family: var(--f-display);
+  font-weight: 700;
+  font-size: clamp(28px, 4.4vw, 40px);
+  line-height: 1.28;
+  letter-spacing: .01em;
+  margin: 0;
+  text-wrap: balance;
+  max-width: 20ch;
+}
+.subtitle {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--ink-soft);
+  font-size: 16px;
+}
+.subtitle .en {
+  display: block;
+  font-family: var(--f-display);
+  font-size: 14.5px;
+  color: var(--ink-faint);
+  margin-top: 8px;
+  line-height: 1.55;
+}
+
+.factgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.fact {
+  background: var(--surface);
+  padding: 13px 16px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.fact dt {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.fact dd {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- timeline ---------- */
+
+.timeline-wrap {
+  border-bottom: 1px solid var(--rule);
+  background: var(--ground);
+}
+.timeline-scroll {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 26px 28px 30px;
+  overflow-x: auto;
+}
+.timeline {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(132px, 1fr);
+  min-width: 900px;
+  position: relative;
+}
+.tl-node {
+  padding-top: 22px;
+  padding-right: 14px;
+  position: relative;
+}
+.tl-node::before {
+  content: "";
+  position: absolute;
+  top: 6px; left: 0; right: 0;
+  height: 1px;
+  background: var(--rule-strong);
+}
+.tl-node::after {
+  content: "";
+  position: absolute;
+  top: 2.5px; left: 0;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--ground);
+  border: 1.5px solid var(--rule-strong);
+}
+.tl-node.is-key::after {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.tl-date {
+  display: block;
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .02em;
+}
+.tl-label {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+.tl-node.is-key .tl-label { color: var(--ink); font-weight: 500; }
+
+/* ---------- layout ---------- */
+
+.shell {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 28px 96px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 44px;
+}
+@media (min-width: 1020px) {
+  .shell {
+    grid-template-columns: 216px minmax(0, 1fr);
+    gap: 56px;
+    padding-top: 8px;
+  }
+}
+
+.rail { display: none; }
+@media (min-width: 1020px) {
+  .rail {
+    display: block;
+    position: sticky;
+    top: 0;
+    align-self: start;
+    padding: 44px 0;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+}
+.rail h2 {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+.rail ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.rail a {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 6px;
+  padding: 5px 8px 5px 0;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  padding-left: 10px;
+  line-height: 1.45;
+}
+.rail a:hover {
+  color: var(--ink);
+  border-left-color: var(--accent);
+}
+.rail a .n {
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  padding-top: 1px;
+}
+
+main { padding-top: 44px; display: flex; flex-direction: column; gap: 60px; }
+
+/* ---------- stage ---------- */
+
+.stage { scroll-margin-top: 24px; }
+
+.stage-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+}
+.stage-n {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  letter-spacing: .1em;
+  color: var(--accent);
+  padding-top: 4px;
+}
+.stage-head h2 {
+  font-family: var(--f-display);
+  font-weight: 700;
+  font-size: clamp(21px, 2.8vw, 26px);
+  margin: 0;
+  letter-spacing: .01em;
+  flex: 1 1 auto;
+  text-wrap: balance;
+}
+.stage-head .when {
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.lede {
+  max-width: 66ch;
+  color: var(--ink-soft);
+  margin: 0 0 24px;
+}
+
+.block { display: flex; flex-direction: column; gap: 20px; }
+
+h3 {
+  font-family: var(--f-body);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  letter-spacing: .01em;
+}
+h3 .tag {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: 9px;
+}
+
+p { margin: 0 0 12px; max-width: 68ch; }
+p:last-child { margin-bottom: 0; }
+
+ol.steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+ol.steps > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 38px;
+  max-width: 72ch;
+}
+ol.steps > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 26px;
+  text-align: left;
+  font-family: var(--f-mono);
+  font-size: 12px;
+  line-height: 2.2;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+ol.steps > li > *:first-child { margin-top: 0; }
+
+ul.plain {
+  margin: 0;
+  padding: 0 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 68ch;
+}
+ul.plain li::marker { color: var(--ink-faint); }
+
+/* ---------- panels ---------- */
+
+.panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.panel {
+  background: var(--surface);
+  padding: 15px 17px 17px;
+}
+.panel > h4 {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--ink-faint);
+  margin: 0 0 9px;
+}
+.panel ul {
+  margin: 0;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 1.65;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.panel ul li::marker { color: var(--rule-strong); }
+.panel.is-block > h4 { color: var(--seal); }
+.panel.is-block { background: var(--seal-soft); }
+
+/* ---------- notes ---------- */
+
+.note {
+  border-left: 2px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 13px 16px;
+  border-radius: 0 3px 3px 0;
+  font-size: 14.5px;
+  max-width: 70ch;
+}
+.note.warn { border-left-color: var(--seal); background: var(--seal-soft); }
+.note.todo { border-left-color: var(--amber); background: var(--amber-soft); }
+.note strong { font-weight: 700; }
+.note p { margin-bottom: 8px; }
+
+/* ---------- code ---------- */
+
+.code {
+  background: var(--sunk);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow-x: auto;
+  font-family: var(--f-mono);
+  font-size: 13px;
+  line-height: 1.7;
+  padding: 13px 16px;
+  white-space: pre;
+  color: var(--ink);
+  tab-size: 2;
+}
+.code .c { color: var(--ink-faint); }
+code.inline {
+  font-family: var(--f-mono);
+  font-size: .88em;
+  background: var(--sunk);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 1px 5px;
+  white-space: nowrap;
+}
+
+/* ---------- tables ---------- */
+
+.tablewrap {
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--surface);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  min-width: 480px;
+}
+caption {
+  text-align: left;
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  padding: 12px 15px 0;
+}
+th, td {
+  text-align: left;
+  padding: 9px 15px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+  line-height: 1.55;
+}
+thead th {
+  font-size: 11.5px;
+  font-family: var(--f-mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 500;
+  border-bottom: 1px solid var(--rule-strong);
+  white-space: nowrap;
+}
+tbody tr:last-child td { border-bottom: none; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.mono, th.mono { font-family: var(--f-mono); font-size: 12.5px; white-space: nowrap; }
+
+.pill {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: .04em;
+  padding: 1px 7px;
+  border-radius: 2px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+.pill.ok   { color: var(--accent); }
+.pill.hold { color: var(--amber); }
+.pill.stop { color: var(--seal); }
+
+/* ---------- meter ---------- */
+
+.meters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(212px, 1fr));
+  gap: 20px 30px;
+  max-width: 760px;
+}
+.meter-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 13.5px;
+  margin-bottom: 6px;
+}
+.meter-label .v {
+  font-family: var(--f-mono);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+.meter-track {
+  height: 5px;
+  background: var(--sunk);
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+}
+.meter-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px 0 0 2px;
+}
+
+/* ---------- reviewer cards ---------- */
+
+.reviewers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.rv { background: var(--surface); padding: 14px 16px 16px; }
+.rv .code-tag {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: .1em;
+  color: var(--accent);
+}
+.rv h4 { margin: 3px 0 5px; font-size: 14.5px; font-weight: 700; }
+.rv p { font-size: 13.5px; color: var(--ink-soft); margin: 0; line-height: 1.6; }
+
+/* ---------- checklist ---------- */
+
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.checklist li {
+  background: var(--surface);
+  padding: 11px 16px;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  font-size: 14.5px;
+}
+.checklist li .box {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink-faint);
+  padding-top: 3px;
+}
+.checklist li.done .box { color: var(--accent); }
+.checklist li.done span:last-child { color: var(--ink-soft); }
+
+details.more {
+  border-top: 1px solid var(--rule);
+  padding-top: 12px;
+}
+details.more summary {
+  cursor: pointer;
+  font-family: var(--f-mono);
+  font-size: 11.5px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  list-style: none;
+}
+details.more summary::-webkit-details-marker { display: none; }
+details.more summary::before { content: "▸ "; }
+details.more[open] summary::before { content: "▾ "; }
+details.more > *:not(summary) { margin-top: 14px; }
+
+footer.colophon {
+  border-top: 1px solid var(--rule);
+  background: var(--surface);
+}
+.colophon-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 26px 28px 40px;
+  font-size: 13px;
+  color: var(--ink-faint);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="eyebrow">
+      <span>病例報告 · 從個案到刊登</span>
+      <span class="stamp">已接受 · 預排 2027-06 刊登</span>
+    </div>
+    <h1>骨盆底硬皮囊腫論文的完整操作流程</h1>
+    <p class="subtitle">
+      這份文件把 2026 年 3 月的一台手術，走到 2026 年 9 月接受函之間的每一步拆成可重複執行的動作：選題判準、期刊評估、IRB 十三份表格、文獻檢索與引用對應、Skills 指令、AI 模擬審稿、投稿送件。下一篇論文直接照著跑。
+      <span class="en">A Large Epidermoid Cyst of the Pelvic Floor Mimicking Rectal Malignancy: A Case Report — Fu-Jen Journal of Medicine</span>
+    </p>
+    <dl class="factgrid">
+      <div class="fact"><dt>刊登期刊</dt><dd>輔仁醫學期刊 FJJM</dd></div>
+      <div class="fact"><dt>IRB 案號</dt><dd>CGH-P115074</dd></div>
+      <div class="fact"><dt>作者</dt><dd>4 人 · 3 科別</dd></div>
+      <div class="fact"><dt>參考文獻</dt><dd>9 篇</dd></div>
+      <div class="fact"><dt>主文字數</dt><dd>1,496 / 1,500</dd></div>
+      <div class="fact"><dt>總歷時</dt><dd>約 6 個月</dd></div>
+    </dl>
+  </div>
+</header>
+
+<div class="timeline-wrap">
+  <div class="timeline-scroll">
+    <div class="timeline">
+      <div class="tl-node is-key"><span class="tl-date">2026-03-10</span><span class="tl-label">手術完成，個案成形</span></div>
+      <div class="tl-node"><span class="tl-date">2026-05</span><span class="tl-label">文獻檢索與草稿產製管線建立</span></div>
+      <div class="tl-node"><span class="tl-date">2026-06-02</span><span class="tl-label">AI 模擬審稿第一輪 · Major Revision</span></div>
+      <div class="tl-node is-key"><span class="tl-date">2026-06-03</span><span class="tl-label">IRB 十三份表格送件</span></div>
+      <div class="tl-node"><span class="tl-date">2026-06-29</span><span class="tl-label">IRB 變更案（作者科別更正）</span></div>
+      <div class="tl-node"><span class="tl-date">2026-07-20</span><span class="tl-label">目標期刊由 JFMA 轉為 FJJM</span></div>
+      <div class="tl-node is-key"><span class="tl-date">2026-07-24</span><span class="tl-label">Google Form 送出投稿</span></div>
+      <div class="tl-node is-key"><span class="tl-date">2026-09-09</span><span class="tl-label">接受通知 + 三點審稿建議</span></div>
+      <div class="tl-node"><span class="tl-date">2027-06</span><span class="tl-label">預定刊出</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="shell">
+
+  <nav class="rail" aria-label="流程階段">
+    <h2>流程階段</h2>
+    <ol>
+      <li><a href="#s1"><span class="n">01</span><span>文章選題</span></a></li>
+      <li><a href="#s2"><span class="n">02</span><span>目標期刊評估</span></a></li>
+      <li><a href="#s3"><span class="n">03</span><span>IRB 申請</span></a></li>
+      <li><a href="#s4"><span class="n">04</span><span>文獻搜尋</span></a></li>
+      <li><a href="#s5"><span class="n">05</span><span>文獻整理與引用</span></a></li>
+      <li><a href="#s6"><span class="n">06</span><span>寫作與 Word 產出</span></a></li>
+      <li><a href="#s7"><span class="n">07</span><span>Skills 運用</span></a></li>
+      <li><a href="#s8"><span class="n">08</span><span>AI 協助審稿</span></a></li>
+      <li><a href="#s9"><span class="n">09</span><span>投稿送件</span></a></li>
+      <li><a href="#s10"><span class="n">10</span><span>接受後待辦</span></a></li>
+      <li><a href="#s11"><span class="n">—</span><span>下一篇檢查清單</span></a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <!-- ============ 01 ============ -->
+    <section class="stage" id="s1">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 01</span>
+        <h2>文章選題</h2>
+        <span class="when">手術後 1–2 週內決定</span>
+      </div>
+      <p class="lede">病例報告的價值不在「罕見」本身，而在「有教學點且證據鏈完整」。動筆前先用三個問題篩掉八成的個案。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>三問篩選</h3>
+          <ol class="steps">
+            <li><strong>罕見度可查證嗎？</strong>本案在 PubMed 檢索後可寫出「文獻報告少於 20 例」——這句話必須有檢索依據，不能憑印象。</li>
+            <li><strong>有沒有可轉移的教學點？</strong>本案的教學點是三項術前發現（大腸鏡陰性、腫瘤標記正常、CT 無強化）把處置從腫瘤路線導回良性外壓性囊腫，別的醫師遇到類似影像可以直接套用。</li>
+            <li><strong>證據鏈是否完整？</strong>影像（CT 冠狀面／軸狀面）＋內視鏡＋病理 H&amp;E ＋術後追蹤數據，四項缺一都會在審稿被打。</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3><span class="tag">Case</span>本案的答案</h3>
+          <div class="panels">
+            <div class="panel">
+              <h4>個案</h4>
+              <ul>
+                <li>61 歲男性</li>
+                <li>骨盆底 10 cm 腫塊</li>
+                <li>合併疑似轉移淋巴結</li>
+                <li>SFU Grade 3 水腎</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h4>為何值得寫</h4>
+              <ul>
+                <li>文獻少於 20 例</li>
+                <li>CT 呈現強烈惡性假象</li>
+                <li>三聯徵可重複應用</li>
+                <li>含泌尿道保護策略</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h4>文體與指引</h4>
+              <ul>
+                <li>單一臨床病例報告</li>
+                <li>CARE 13 項為底</li>
+                <li>投 IJSCR 系期刊改用 SCARE 2023</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="note warn">
+          <p><strong>選題階段就要預防的過度宣稱。</strong>初稿把三聯徵寫成「對硬皮囊腫具特異性」，AI 審稿的 Devil's Advocate 立刻指出：這三項全是排除性陰性所見，只能指向「良性非強化外壓性囊腫」，不能指向特定病理診斷。</p>
+          <p style="margin-bottom:0">最終定稿改寫為：<em>「Individually, none of these findings is specific for epidermoid cyst; together, they point toward a benign non-enhancing extrinsic cystic mass.」</em>——選題時就想清楚你真正能宣稱到哪一層，可以省掉一整輪大改。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 ============ -->
+    <section class="stage" id="s2">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 02</span>
+        <h2>目標期刊評估</h2>
+        <span class="when">寫作前，不是寫完後</span>
+      </div>
+      <p class="lede">期刊決定字數上限、引用格式、圖表數量與 IRB 聲明的擺放位置。先定期刊再排版，可以避免整份稿件重做——本案就因為中途換期刊多做了一輪格式轉換。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>六個評估維度</h3>
+          <ol class="steps">
+            <li><strong>收不收 case report。</strong>不少綜合期刊已改成只收 Correspondence／Letter，官網文章類型頁要逐字看過。</li>
+            <li><strong>費用。</strong>訂閱制無強制 APC ／ 刊登費 ／ Fellowship 制，差異可以到三千美金。</li>
+            <li><strong>層級與可見度。</strong>SCIE 綜合醫學 &gt; 區域外科 &gt; 專收案例期刊。</li>
+            <li><strong>沉沒成本。</strong>已按哪家格式排版、IRB 是否已備妥。</li>
+            <li><strong>指引要求。</strong>CARE 還是 SCARE checklist、是否強制附病人同意書。</li>
+            <li><strong>決策者的權重。</strong>前五項是客觀條件，但最終順位由主持人定。本案主任的判準是「以最大通過可能者為優先」，錄取機率壓過層級——這條要在開始排版前就問清楚。</li>
+          </ol>
+        </div>
+
+        <div>
+          <div class="tablewrap">
+            <table>
+              <caption>本案查證後的定版投稿順序</caption>
+              <thead>
+                <tr><th class="mono">#</th><th>期刊</th><th>收 case report</th><th>費用（2026）</th><th>關鍵要求</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="mono">1</td><td>JFMA</td><td><span class="pill ok">明列收錄</span></td><td>Elsevier 訂閱制，無強制 APC</td><td>ICMJE／URM</td></tr>
+                <tr><td class="mono">2</td><td>Asian Journal of Surgery</td><td><span class="pill ok">收</span></td><td>刊登費 US$1,600</td><td>區域外科期刊，層級較高</td></tr>
+                <tr><td class="mono">3</td><td>Int. J. Surgery Case Reports</td><td><span class="pill ok">專收</span></td><td>OA APC（中等）</td><td>須附 SCARE checklist</td></tr>
+                <tr><td class="mono">4</td><td>BMJ Case Reports</td><td><span class="pill ok">專收</span></td><td>Fellowship 約 $455／年</td><td>強制病人同意書</td></tr>
+                <tr><td class="mono">5</td><td>Journal of Medical Case Reports</td><td><span class="pill ok">專收</span></td><td>APC 約 US$2,990</td><td>PubMed 收錄</td></tr>
+                <tr><td class="mono">備</td><td>Clinical Case Reports／Cureus</td><td><span class="pill ok">收</span></td><td>Cureus 免費</td><td>保底</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <h3><span class="tag">Fork</span>換期刊時要重做的事</h3>
+          <p>本案在 2026-07-20 由 JFMA 轉投 FJJM，由主任裁定，判準是<strong>以最大通過可能者為優先</strong>——層級與可見度讓位給錄取機率。這是一個值得先講明的立場：上表的順位是依成本與層級排的，但真正下決定的人可能用完全不同的權重。因此在 Stage 02 開始前就該問清楚主持人要的是「衝層級」還是「求刊登」，兩者會導向不同的第一順位，也會決定要不要一開始就按該刊格式排版。</p>
+          <p>以下是實際需要逐項改的差異，可以當成任何一次換刊的檢查表：</p>
+          <div class="tablewrap">
+            <table>
+              <thead>
+                <tr><th>項目</th><th>JFMA</th><th>FJJM</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>引用格式</td><td>Vancouver 上標 <code class="inline">^1^</code></td><td>方括號、置於標點後 <code class="inline">[1-3].</code></td></tr>
+                <tr><td>Running title</td><td>—</td><td>&lt; 40 字元</td></tr>
+                <tr><td>章節順序</td><td>Table 在 Figure 前</td><td>References → Figures＋Legends → Tables</td></tr>
+                <tr><td>IRB 核准號</td><td>倫理聲明段</td><td>須寫進 Case Presentation 段落內</td></tr>
+                <tr><td>中文摘要</td><td>不需要</td><td>獨立文件，≤ 200 字，含中文作者名</td></tr>
+                <tr><td>頁面邊界</td><td>2.54 cm</td><td>≥ 3 cm</td></tr>
+                <tr><td>圖片</td><td>可分檔上傳</td><td>須內嵌於投稿 Word 檔內</td></tr>
+                <tr><td>版權讓渡書</td><td>系統內簽署</td><td>只收 PDF／JPG，不收 docx</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>額外要求的中文欄位。</strong>FJJM 需要中文標題、中文短標題（12 字內）、作者中文全名、中文服務單位、通訊作者電話與傳真。這些在英文期刊完全用不到，換刊時最容易漏。
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 ============ -->
+    <section class="stage" id="s3">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 03</span>
+        <h2>IRB 申請</h2>
+        <span class="when">與寫作並行，愈早愈好</span>
+      </div>
+      <p class="lede">病例報告仍須送 IRB。本案共備七類表格、實際產出十三份文件，加上四位研究人員的訓練時數證明。核准後才拿得到寫進稿件的案號。</p>
+
+      <div class="block">
+        <div class="panels">
+          <div class="panel">
+            <h4>前置條件</h4>
+            <ul>
+              <li>全體研究人員具備 IRB／GCP 訓練時數（本案 12–13.5 分）</li>
+              <li>病人書面同意書已簽</li>
+              <li>影像已去識別化</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h4>產出物</h4>
+            <ul>
+              <li>DOC／ 內 13 份填寫版</li>
+              <li>訓練證明 PDF ×4 人</li>
+              <li>整合 PDF 一份</li>
+            </ul>
+          </div>
+          <div class="panel is-block">
+            <h4>卡關點</h4>
+            <ul>
+              <li>案號未下來，稿件倫理聲明無法定稿</li>
+              <li>作者科別寫錯需另跑變更案</li>
+              <li>簽名欄無法自動化</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3><span class="tag">Step</span>操作步驟</h3>
+          <ol class="steps">
+            <li><strong>下載院方空白表單。</strong>本案為 <code class="inline">65_10-1</code> 至 <code class="inline">65_10-7-2</code> 共七類。</li>
+            <li>
+              <strong>把 .doc 轉成 .docx</strong>，否則 python-docx 讀不到。
+              <div class="code">$word = New-Object -ComObject Word.Application
+$doc  = $word.Documents.Open("C:\Users\User\Downloads\65_10-1.doc")
+$doc.SaveAs2("C:\Users\User\Downloads\65_10-1_converted.docx", 16)
+$doc.Close(); $word.Quit()</div>
+            </li>
+            <li>
+              <strong>批次填寫。</strong>把研究團隊資料、計畫中英文名稱、摘要寫成腳本常數，一次產出全部表格。
+              <div class="code">cd "C:\Users\User\Downloads\medpaper"
+py fill_irb_forms.py   <span class="c"># → DOC/ 共 13 份</span></div>
+            </li>
+            <li><strong>人工補填腳本填不了的欄位</strong>（見下方清單），列印後由各人親筆簽名。</li>
+            <li><strong>整合成單一 PDF 寄至院內 IRB 信箱</strong>（本案 <code class="inline">irb@cgh.org.tw</code>），等待給號。</li>
+            <li><strong>拿到案號後回填</strong>三處：10-1、10-4、10-7-1，以及稿件內的倫理聲明。</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3><span class="tag">Docs</span>須備文件清單</h3>
+          <div class="tablewrap">
+            <table>
+              <thead>
+                <tr><th class="mono">表格</th><th>名稱</th><th class="mono">份數</th><th>可自動填</th><th>須人工</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="mono">10-1</td><td>個案報告收件表格</td><td class="num">1</td><td>計畫名稱、團隊、備妥勾選</td><td>主持人簽名、送件日期</td></tr>
+                <tr><td class="mono">10-2</td><td>研究人員履歷</td><td class="num">4</td><td>現職、角色、本次著作</td><td>出生年月日、學歷、經歷</td></tr>
+                <tr><td class="mono">10-4</td><td>個案報告審查申請表</td><td class="num">1</td><td>研究期間、無贊助、病例報告、病患</td><td>案號、分機、簽名</td></tr>
+                <tr><td class="mono">10-5</td><td>中英文摘要表</td><td class="num">1</td><td>目的、設計、中英摘要、關鍵字</td><td>版本生效日期</td></tr>
+                <tr><td class="mono">10-6</td><td>病人資料提供同意書</td><td class="num">1</td><td>計畫名稱、主持人</td><td>病人姓名、生日、病歷號、簽名</td></tr>
+                <tr><td class="mono">10-7-1</td><td>財務利益評估說明表</td><td class="num">1</td><td>A 欄 Q1–Q6、B 欄無衝突</td><td>主持人簽名</td></tr>
+                <tr><td class="mono">10-7-2</td><td>顯著財務利益申報表</td><td class="num">4</td><td>A 欄無財務利益</td><td>各人親筆簽名</td></tr>
+                <tr><td class="mono">—</td><td>臨床試驗規範訓練證明</td><td class="num">4</td><td><span class="pill stop">不可</span></td><td>院內系統調取時數證明</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <details class="more">
+          <summary>變更案怎麼跑（本案 2026-06-29 至 07-08）</summary>
+          <p>核准後才發現作者科別記載有誤——通訊作者實為一般外科而非大腸直腸外科、兩位專科護理師實屬護理部。這類更正必須走正式變更案，不能私下改稿：</p>
+          <ul class="plain">
+            <li><code class="inline">65_3-1</code> 收件申請書</li>
+            <li><code class="inline">65_3-2</code> 人體試驗研究計畫變更申請書</li>
+            <li><code class="inline">65_3-3</code> 修正前後對照表 ← 變更案的核心，逐條列出修正前／修正後</li>
+            <li>受影響的原表格「變更後」版本：10-1、10-4、10-5、10-6、10-7-1、10-7-2</li>
+          </ul>
+          <p style="margin-top:12px;margin-bottom:0">教訓：送件前把每位作者的<strong>正式科別全名</strong>逐一向本人確認，比事後跑變更案省下兩週。</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ 04 ============ -->
+    <section class="stage" id="s4">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 04</span>
+        <h2>文獻搜尋</h2>
+        <span class="when">與 IRB 並行</span>
+      </div>
+      <p class="lede">病例報告的文獻量不大（本案定稿 9 篇），但每一篇都要能直接支撐一個論點。目標是「用最少的文獻撐起罕見度宣稱、影像鑑別與惡性化風險三塊」。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>操作步驟</h3>
+          <ol class="steps">
+            <li>
+              <strong>先收斂研究問題，再開始檢索。</strong>用 ARS 的蘇格拉底模式把模糊想法逼成一句可檢索的問題。
+              <div class="code">/ars-plan          <span class="c"># 逐章引導式規劃</span>
+/deep-research     <span class="c"># 蘇格拉底模式收斂問題</span></div>
+            </li>
+            <li><strong>建立檢索詞組合。</strong>本案主軸為 <code class="inline">epidermoid cyst</code> 交叉 <code class="inline">pelvic</code>／<code class="inline">retroperitoneal</code>／<code class="inline">presacral</code>／<code class="inline">retrorectal</code>，並加上 mimicking malignancy 一組。</li>
+            <li><strong>分三類收文獻</strong>，每類都要有：<br>① 罕見部位個案報告（撐罕見度）② 影像鑑別與 mimicker 綜述（撐 CT 判讀）③ 惡性變化個案（撐 Limitations 與追蹤建議）。</li>
+            <li><strong>逐篇確認可取得全文</strong>並記下 DOI——後續引用自動比對靠 DOI 精確對上。</li>
+            <li><strong>產出註解書目</strong>檢查覆蓋是否有缺口。<div class="code">/ars-lit-review</div></li>
+          </ol>
+        </div>
+
+        <div>
+          <div class="tablewrap">
+            <table>
+              <caption>定稿 9 篇的功能分配</caption>
+              <thead><tr><th>用途</th><th class="mono">Ref</th><th>代表文獻</th></tr></thead>
+              <tbody>
+                <tr><td>罕見部位個案</td><td class="mono">1, 2, 3, 4</td><td>骨盆腔／腹膜後／直腸後硬皮囊腫個案報告</td></tr>
+                <tr><td>影像鑑別綜述</td><td class="mono">5, 8</td><td>Radiographics 直腸罕見腫瘤與 mimicker；硬皮囊腫影像評估</td></tr>
+                <tr><td>術式與處置</td><td class="mono">6, 7</td><td>腹腔鏡切除、精囊巨大硬皮囊腫</td></tr>
+                <tr><td>惡性變化風險</td><td class="mono">9</td><td>腹部巨大硬皮囊腫合併鱗狀上皮增生癌變</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="note todo">
+          <strong>接受函點名的弱點。</strong>審稿委員第 2 點指出：「Most of the cited references are over 5 years.」本案 9 篇中僅 2 篇在近五年內。下一篇在收文獻時就應設一條硬規則——<strong>近五年文獻至少佔一半</strong>，並在檢索時加上年份區間過濾。
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 ============ -->
+    <section class="stage" id="s5">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 05</span>
+        <h2>文獻整理與引用對應</h2>
+        <span class="when">草稿產出前完成</span>
+      </div>
+      <p class="lede">這一步的唯一目的：讓草稿裡的每個 <code class="inline">[n]</code> 標記，都能自動換成正確的 citekey，最後由 Pandoc 依 CSL 渲染成期刊要求的格式。人工對引用是所有錯誤的來源，能自動就自動。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>操作步驟</h3>
+          <ol class="steps">
+            <li><strong>文獻全部進 Zotero</strong>，安裝 Better BibTeX，匯出 <code class="inline">data/epidermal_cyst.bib</code>。citekey 由 BBT 自動生成（如 <code class="inline">bashairehEpidermalInclusionCyst2019</code>）。</li>
+            <li><strong>同一批文獻上傳 NotebookLM</strong> 作為 source，生成含 <code class="inline">[1] [2]</code> 標記的中文草稿與文末文獻對應表。</li>
+            <li>
+              <strong>建立引用對應表</strong> <code class="inline">data/cite_map.json</code>：
+              <div class="code">{
+  "[1]": "[@fdiliAlaouiGiantPelvic2012]",
+  "[2]": "[@jainPelvicEpidermoidCyst2018]"
+}</div>
+            </li>
+            <li><strong>用三層比對自動產生對應表</strong>，只人工處理紅色未比對項（見下表）。</li>
+            <li><strong>放入目標期刊的 CSL 樣式檔</strong>至 <code class="inline">styles/</code>，Pandoc 渲染時自動套用。</li>
+            <li><strong>最後跑一次引用檢查</strong>：<code class="inline">/ars-citation-check</code>，比對內文標記數與參考文獻筆數是否一致、有無孤兒引用。</li>
+          </ol>
+        </div>
+
+        <div>
+          <div class="tablewrap">
+            <table>
+              <caption>引用自動比對三層邏輯</caption>
+              <thead><tr><th>層級</th><th>方法</th><th>判準</th><th>結果</th></tr></thead>
+              <tbody>
+                <tr><td class="mono">Tier 0</td><td>Semantic Scholar API</td><td>標題搜尋 → DOI → .bib DOI 精確比對</td><td><span class="pill ok">綠 · 直接採用</span></td></tr>
+                <tr><td class="mono">Tier 1</td><td>difflib 模糊比對</td><td>標題相似度 ≥ 0.25 → .bib 標題比對</td><td><span class="pill hold">黃 · 需目視確認</span></td></tr>
+                <tr><td class="mono">—</td><td>未比對</td><td>顯示 <code class="inline">@UNMATCHED_n</code></td><td><span class="pill stop">紅 · 手動輸入</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 ============ -->
+    <section class="stage" id="s6">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 06</span>
+        <h2>寫作與 Word 產出</h2>
+        <span class="when">貫穿全程</span>
+      </div>
+      <p class="lede">鐵則只有一條：<strong>Markdown 是唯一編輯來源，docx 一律由腳本產生，永遠不手改。</strong>只要手改過一次 Word，之後每次重新產出都會遺失修改。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>兩步產出投稿檔</h3>
+          <ol class="steps">
+            <li>
+              <strong>Pandoc 轉出原始 docx。</strong>上標引用格式要加 <code class="inline">+superscript</code> 旗標，方括號格式則不需要。
+              <div class="code">pandoc --from markdown+superscript `
+       "Case_Report_Epidermoid_Cyst.md" `
+       -o "Case_Report_Epidermoid_Cyst_raw.docx"</div>
+            </li>
+            <li>
+              <strong>用格式腳本套用期刊規格。</strong>每家期刊一支腳本，差異寫在腳本裡而不是稿件裡。
+              <div class="code">py format_docx.py        <span class="c"># JFMA：2.54 cm 邊界</span>
+py format_docx_fjjm.py   <span class="c"># FJJM：3 cm 邊界</span></div>
+              <p style="font-size:14px;color:var(--ink-soft);margin-top:10px">套用內容：Times New Roman 12pt、雙倍行距、正文左對齊、頁底置中頁碼、表格 11pt、期刊指定邊界。</p>
+            </li>
+            <li><strong>圖片先去識別化再內嵌。</strong>本案 4 張圖（H&amp;E 病理、CT 冠狀面、CT 軸狀面、大腸鏡）以 <code class="inline">![](figures/xxx.png){width=6in}</code> 寫進 md，隨 docx 一起輸出，成品 5.8 MB。</li>
+            <li><strong>每次改稿後重跑整條管線</strong>，不要只補 Word。</li>
+          </ol>
+        </div>
+
+        <div>
+          <h3><span class="tag">Limits</span>字數守則（FJJM 個案報告）</h3>
+          <div class="meters">
+            <div>
+              <div class="meter-label"><span>主文 Introduction–Conclusion</span><span class="v">1,496 / 1,500</span></div>
+              <div class="meter-track"><div class="meter-fill" style="width:99.7%"></div></div>
+            </div>
+            <div>
+              <div class="meter-label"><span>英文摘要（非結構式）</span><span class="v">141 / 200</span></div>
+              <div class="meter-track"><div class="meter-fill" style="width:70.5%"></div></div>
+            </div>
+            <div>
+              <div class="meter-label"><span>中文摘要</span><span class="v">186 / 200</span></div>
+              <div class="meter-track"><div class="meter-fill" style="width:93%"></div></div>
+            </div>
+            <div>
+              <div class="meter-label"><span>參考文獻</span><span class="v">9 / 25</span></div>
+              <div class="meter-track"><div class="meter-fill" style="width:36%"></div></div>
+            </div>
+            <div>
+              <div class="meter-label"><span>作者人數</span><span class="v">4 / 5</span></div>
+              <div class="meter-track"><div class="meter-fill" style="width:80%"></div></div>
+            </div>
+            <div>
+              <div class="meter-label"><span>關鍵字</span><span class="v">5 / 6</span></div>
+              <div class="meter-track"><div class="meter-fill" style="width:83%"></div></div>
+            </div>
+          </div>
+          <p style="margin-top:16px;font-size:14px;color:var(--ink-soft)">中文摘要初稿 390 字，砍到 186 字才符合規定——摘要字數是最常超標的一項，寫的時候就照上限寫。</p>
+        </div>
+
+        <div>
+          <h3><span class="tag">Care</span>指引合規檢查</h3>
+          <p>投稿前逐項對照 CARE（或 IJSCR 系期刊的 SCARE 2023）。本案在第一輪 AI 審稿後才補上的兩項，正是最容易漏的：</p>
+          <ul class="plain">
+            <li><strong>Timeline</strong> — 補入 Table 1 臨床時間軸</li>
+            <li><strong>Patient Perspective</strong> — 補入病人觀點段落</li>
+            <li>其餘須落地的聲明：倫理核准、知情同意、利益衝突、經費、CRediT 作者貢獻、資料可得性、AI 使用揭露、Guarantor</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 ============ -->
+    <section class="stage" id="s7">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 07</span>
+        <h2>Skills 運用</h2>
+        <span class="when">按需求呼叫</span>
+      </div>
+      <p class="lede">不需要每支都用。本案實際只跑了其中五支——選題規劃、文獻回顧、審稿模擬、修訂教練、引用檢查，其餘備而不用。</p>
+
+      <div class="block">
+        <div class="tablewrap">
+          <table>
+            <thead>
+              <tr><th class="mono">指令</th><th>用途</th><th>本案</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="mono">/ars-plan</td><td>蘇格拉底式逐章規劃，把模糊想法逼成研究問題</td><td><span class="pill ok">用過</span></td></tr>
+              <tr><td class="mono">/ars-outline</td><td>詳細大綱＋證據對應表，不出全文</td><td>—</td></tr>
+              <tr><td class="mono">/ars-lit-review</td><td>論文格式的註解書目</td><td><span class="pill ok">用過</span></td></tr>
+              <tr><td class="mono">/ars-reviewer</td><td>五人模擬同儕審查（見 Stage 08）</td><td><span class="pill ok">兩輪</span></td></tr>
+              <tr><td class="mono">/ars-revision-coach</td><td>把審稿意見解析成 Revision Roadmap ＋回覆信骨架</td><td><span class="pill ok">用過</span></td></tr>
+              <tr><td class="mono">/ars-revision</td><td>依 Roadmap 產出修訂稿與 R&amp;R 回覆</td><td><span class="pill ok">用過</span></td></tr>
+              <tr><td class="mono">/ars-citation-check</td><td>引用錯誤報告</td><td><span class="pill ok">用過</span></td></tr>
+              <tr><td class="mono">/ars-abstract</td><td>雙語摘要與關鍵字</td><td>—</td></tr>
+              <tr><td class="mono">/ars-disclosure</td><td>依期刊生成 AI 使用揭露聲明</td><td>—</td></tr>
+              <tr><td class="mono">/ars-format-convert</td><td>LaTeX／DOCX／PDF／Markdown 互轉</td><td>—</td></tr>
+              <tr><td class="mono">/ars-full</td><td>研究→寫作→審查→修訂→定稿全管線</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note">
+          <strong>成本提醒。</strong>一次完整 <code class="inline">/ars-full</code> 管線約 US$4–6 量級。單篇病例報告用不到全管線，分開呼叫個別 skill 划算得多。
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 ============ -->
+    <section class="stage" id="s8">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 08</span>
+        <h2>AI 協助審稿</h2>
+        <span class="when">投稿前，跑滿兩輪</span>
+      </div>
+      <p class="lede">在真人審稿前先讓五位模擬審稿人打一遍。本案第一輪拿到 Major Revision 與 20 項 Revision Roadmap，修完再跑第二輪驗證——真正投稿時只剩一個阻斷項。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>三階段操作</h3>
+          <ol class="steps">
+            <li><strong>Phase 0 — 設定審稿團隊。</strong>系統先出「審稿委員設定卡」，這一步要<strong>指定目標期刊做校準</strong>（本案校準至 JFMA），否則標準會偏。可回覆調整任一位的背景。</li>
+            <li><strong>Phase 1 — 五份獨立審稿報告。</strong>輸入 <code class="inline">開始</code> 或 <code class="inline">continue</code>。</li>
+            <li><strong>Phase 2 — 決議信與 Revision Roadmap。</strong>自動產出，含分級（Priority 1 阻斷 ／ Priority 2 主要 ／ Priority 3 建議）。</li>
+            <li><strong>逐項修訂</strong>，每改一項就在進度檔打勾留痕。</li>
+            <li>
+              <strong>回跑驗證審查。</strong>Phase 0 完成後輸入 <code class="inline">re-review</code>，提供「原始 Roadmap ＋ 修改後稿件」，會得到 R&amp;R Traceability Matrix：每項標記 <em>FULLY ADDRESSED ／ PARTIALLY ／ NOT ADDRESSED</em>。
+            </li>
+          </ol>
+        </div>
+
+        <div>
+          <h3><span class="tag">Panel</span>五位審稿人的分工</h3>
+          <div class="reviewers">
+            <div class="rv"><span class="code-tag">EIC</span><h4>主編</h4><p>期刊契合度、原創性、臨床教學價值、強制揭露是否齊備</p></div>
+            <div class="rv"><span class="code-tag">R1</span><h4>方法學審稿人</h4><p>術前檢查邏輯、手術技術描述、結果報告完整性</p></div>
+            <div class="rv"><span class="code-tag">R2</span><h4>領域審稿人</h4><p>影像判讀正確性、影像鑑別診斷、mimicker 文獻覆蓋</p></div>
+            <div class="rv"><span class="code-tag">R3</span><h4>跨科觀點審稿人</h4><p>水腎處置、跨科協作、他院可否複製</p></div>
+            <div class="rv"><span class="code-tag">DA</span><h4>魔鬼代言人</h4><p>單一個案外推的效度、教學點過度宣稱、其他解釋可能</p></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="tablewrap">
+            <table>
+              <caption>本案兩輪結果</caption>
+              <thead><tr><th>輪次</th><th>模式</th><th>結果</th></tr></thead>
+              <tbody>
+                <tr><td class="mono">Round 1</td><td>full（校準至 JFMA）</td><td>Major Revision；Revision Roadmap 共 20 項</td></tr>
+                <tr><td class="mono">Round 2</td><td>re-review</td><td>Conditional Minor Revision；關鍵項全數驗證通過，唯一阻斷項為 Figure 1（H&amp;E 病理照）</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <details class="more">
+          <summary>第一輪實際打出來、也真的改了的重點</summary>
+          <ul class="plain">
+            <li><strong>三聯徵過度宣稱</strong>（DA 標為 CRITICAL）→ 重新框架為指向良性外壓性囊腫</li>
+            <li><strong>病理描述自相矛盾</strong>：「多塊灰色組織碎片」vs「完整切除未破裂」→ 補入術中抽吸減壓步驟，說明先減壓後完整切除</li>
+            <li><strong>DRE 未記載</strong>→ 回查病歷確認實有執行（左側 2 點鐘方向硬塊，距肛門 4 cm），更正原稿的 deferred 錯誤描述</li>
+            <li><strong>未做 MRI 未說明</strong>→ 補一句理由：CT 加上大腸鏡陰性與腫瘤標記正常已足以支持手術決策</li>
+            <li><strong>淋巴結歸因</strong>→ 加入限制聲明，不宣稱因果</li>
+            <li><strong>Limitations 段落</strong>、<strong>Patient Perspective</strong>、<strong>Table 1 時間軸</strong>→ 全數新增</li>
+            <li><strong>Figure 2B PACS 量測線</strong>→ 於圖說中說明，避免誤讀</li>
+            <li><strong>CRediT 與 AI 工具名稱</strong>→ 具名填入</li>
+          </ul>
+        </details>
+
+        <div class="note">
+          <strong>AI 使用揭露怎麼寫。</strong>本案寫進稿件的原文可直接沿用：
+          <div class="code" style="margin-top:10px">AI Usage Disclosure: Claude (Anthropic) was used to assist with
+literature search and synthesis during the preparation of this
+manuscript. All content was reviewed, verified, and approved by
+the authors. No AI tool is listed as an author.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 ============ -->
+    <section class="stage" id="s9">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 09</span>
+        <h2>投稿送件</h2>
+        <span class="when">2026-07-24 完成</span>
+      </div>
+      <p class="lede">FJJM 以 Google Form 收件。表單只能存草稿、不能中途退回修改已送出的內容，所以所有附件與欄位內容要先在本機備妥、核對完再開表單。</p>
+
+      <div class="block">
+        <div>
+          <h3><span class="tag">Step</span>操作步驟</h3>
+          <ol class="steps">
+            <li><strong>備齊全部附件</strong>（見下方清單），逐一確認檔案格式符合欄位限制——版權讓渡書欄位只收 PDF／JPG，docx 會被擋。</li>
+            <li><strong>寫 Cover Letter。</strong>四段結構：投稿標的與文章類型 → 個案重點與教學價值 → 原創性與無重複投稿聲明、無利益衝突、IRB 核准號與病人同意 → 通訊作者完整聯絡資訊。</li>
+            <li><strong>填寫表單文字欄位</strong>：文章類型、IRB 號、中英文標題、Running title、全體作者中英文名、服務機構、通訊作者電話傳真、推薦審稿人（可填「由編輯部指派」）。</li>
+            <li><strong>上傳四類檔案</strong>，特別確認 manuscript 是「含 4 張圖」的最新版而非舊版。</li>
+            <li><strong>第二頁 Checklist for Submission</strong> 逐項勾選後送出。</li>
+            <li><strong>另寄一封確認信到期刊信箱</strong>（本案 <code class="inline">fjjm@mail.fju.edu.tw</code>）附上同一批檔案，留下書面紀錄。</li>
+          </ol>
+        </div>
+
+        <div>
+          <div class="tablewrap">
+            <table>
+              <caption>投稿附件清單</caption>
+              <thead><tr><th>檔案</th><th>格式</th><th>備註</th></tr></thead>
+              <tbody>
+                <tr><td>Manuscript（含 4 張圖）</td><td class="mono">.docx</td><td>5.8 MB，遠低於 100 MB 上限</td></tr>
+                <tr><td>English Abstract</td><td class="mono">.docx</td><td>獨立檔案</td></tr>
+                <tr><td>Chinese Abstract</td><td class="mono">.docx</td><td>含中文標題頁資訊，≤ 200 字</td></tr>
+                <tr><td>Cover Letter</td><td class="mono">.docx</td><td>檢查表第一項</td></tr>
+                <tr><td>Copyright Transfer Form</td><td class="mono">.pdf</td><td>可待接受後補簽（見下）</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>簽名時機。</strong>FJJM 投稿須知檢查表第七項明載，作者簽名之投稿聲明書與版權讓渡書「亦可於本刊接受您的稿件後，再行簽署」。不必為了湊齊四位作者的親筆簽名而延後送件——先送未簽名草稿版，接受後再補。
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10 ============ -->
+    <section class="stage" id="s10">
+      <div class="stage-head">
+        <span class="stage-n">STAGE 10</span>
+        <h2>接受後待辦</h2>
+        <span class="when">現在的位置</span>
+      </div>
+      <p class="lede">接受函同時附帶三點審稿意見。第 1 點是肯定，第 2、3 點是可補強項——雖非接受條件，但在校稿階段補上會提高刊出品質。</p>
+
+      <div class="block">
+        <div class="panels">
+          <div class="panel">
+            <h4>審稿意見 1 · 肯定</h4>
+            <ul><li>「concise yet comprehensive in presenting the clinical progression and findings」——結構與敘事節奏維持現狀即可。</li></ul>
+          </div>
+          <div class="panel">
+            <h4>審稿意見 2 · 文獻時效</h4>
+            <ul><li>多數引用超過 5 年，建議補入近五年個案報告。</li><li>回到 Stage 04 重跑檢索，加年份區間過濾。</li></ul>
+          </div>
+          <div class="panel">
+            <h4>審稿意見 3 · 追蹤資料</h4>
+            <ul><li>建議補上術後無復發的追蹤數據。</li><li>本案原稿已揭露追蹤僅至本次住院；現距手術逾六個月，可回診紀錄補實。</li></ul>
+          </div>
+        </div>
+
+        <ul class="checklist">
+          <li class="done"><span class="box">[✓]</span><span>Google Form 送出並寄出確認信（2026-07-24）</span></li>
+          <li class="done"><span class="box">[✓]</span><span>確認信附件為含 4 張圖的最新版 manuscript</span></li>
+          <li><span class="box">[ ]</span><span>全體 4 位作者親筆簽署 Copyright Transfer Form，回寄期刊</span></li>
+          <li><span class="box">[ ]</span><span>依審稿意見 2 補入近五年個案報告，更新 <code class="inline">.bib</code> 與 <code class="inline">cite_map.json</code>，重跑格式管線</span></li>
+          <li><span class="box">[ ]</span><span>依審稿意見 3 調閱術後 6 個月門診追蹤，補入 Follow-up and Outcomes 段落</span></li>
+          <li><span class="box">[ ]</span><span>回覆主編信，說明兩點修改內容與送交時程</span></li>
+          <li><span class="box">[ ]</span><span>等待校樣（proof），核對圖片解析度與作者中英文姓名</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 11 ============ -->
+    <section class="stage" id="s11">
+      <div class="stage-head">
+        <span class="stage-n">NEXT</span>
+        <h2>下一篇的檢查清單</h2>
+      </div>
+      <p class="lede">把這次踩到的坑轉成開工當天就先處理掉的動作。</p>
+
+      <div class="block">
+        <ul class="checklist">
+          <li><span class="box">[ ]</span><span><strong>先問主持人要衝層級還是求刊登。</strong>本案主任的判準是最大通過可能，直接改變第一順位；不先問清楚，排版會白做一輪。</span></li>
+          <li><span class="box">[ ]</span><span><strong>先定期刊再排版。</strong>確認該刊現在還收 case report（不少期刊已改成只收 Correspondence），並抓下最新投稿須知。</span></li>
+          <li><span class="box">[ ]</span><span><strong>開工日就送 IRB。</strong>核准週期是整條流程最長的一段，寫作可以並行。</span></li>
+          <li><span class="box">[ ]</span><span><strong>逐一向每位作者確認正式科別全名與 email。</strong>本案因科別誤植而多跑一次 IRB 變更案。</span></li>
+          <li><span class="box">[ ]</span><span><strong>檢索時就加年份過濾，近五年文獻至少佔一半。</strong></span></li>
+          <li><span class="box">[ ]</span><span><strong>病理圖與追蹤數據最早開始要。</strong>本案 Figure 1（H&amp;E）長期是唯一阻斷項；追蹤資料則被審稿點名。</span></li>
+          <li><span class="box">[ ]</span><span><strong>摘要照上限字數寫。</strong>中文摘要初稿 390 字砍到 186 字，白做一輪。</span></li>
+          <li><span class="box">[ ]</span><span><strong>Markdown 唯一編輯源，docx 一律重跑腳本產生。</strong></span></li>
+          <li><span class="box">[ ]</span><span><strong>AI 審稿跑滿兩輪</strong>（full → 修訂 → re-review），並在 Phase 0 校準到目標期刊。</span></li>
+          <li><span class="box">[ ]</span><span><strong>投稿前逐項對照 CARE／SCARE checklist</strong>，Timeline 與 Patient Perspective 最常漏。</span></li>
+          <li><span class="box">[ ]</span><span><strong>AI 使用揭露寫進稿件</strong>，具名工具、聲明作者已審閱、AI 不列為作者。</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="colophon">
+  <div class="colophon-inner">
+    <div>骨盆底硬皮囊腫投稿全流程 · 依 <code class="inline">medpaper/</code> 專案實際紀錄整理（paper.md、submission_guide.md、IRB.md、revision roadmap.md、Verification Review Report.md）</div>
+    <div>汐止國泰綜合醫院 · IRB CGH-P115074 · 輔仁醫學期刊，預排 2027 年 6 月刊登</div>
+  </div>
+</footer>

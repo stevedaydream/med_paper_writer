@@ -20,12 +20,12 @@ New Taipei City, Taiwan
 
 通訊作者：陳樞鴻，新北市汐止區國泰綜合醫院一般外科。
 電話：0983701132（院內手機）；傳真：(02)2648-2690；
-電子郵件：cgh07668@cgh.org.tw
+電子郵件：colonchen@gmail.com
 
 Corresponding author: Chen Shu-Hung, MD, Department of General
 Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan.
 Tel: 0983701132; Fax: (02)2648-2690;
-E-mail: cgh07668@cgh.org.tw
+E-mail: colonchen@gmail.com
 
 中文短標題：盆底硬皮囊腫擬似直腸腫瘤
 

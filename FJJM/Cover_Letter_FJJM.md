@@ -36,7 +36,7 @@ Chen Shu-Hung, MD
 Department of General Surgery, Xizhi Cathay General Hospital,
 New Taipei City, Taiwan
 Tel: 0983701132; Fax: (02)2648-2690
-E-mail: cgh07668@cgh.org.tw
+E-mail: colonchen@gmail.com
 
 Thank you for considering our manuscript. We look forward to your
 response.

@@ -35,7 +35,7 @@
 ## 待辦事項（投稿前必須完成）
 
 - [ ] **Figure 1**：H&E 病理切片照片（向病理科索取，需 300 dpi 以上）
-- [x] **通訊作者 Email**：cgh07668@cgh.org.tw（已填入論文署名列）
+- [x] **通訊作者 Email**：colonchen@gmail.com（已填入論文署名列）
 - [ ] **重新輸出 Word 檔**：補完上述項目後重跑 `format_docx.py`
 
 ## 待回醫院確認的臨床細節
@@ -163,7 +163,7 @@ py format_docx_fjjm.py
 | 作者（中文） | 王子建、陳紹寬、吳美智、陳樞鴻 |
 | 服務機構 | Department of Nursing / Department of Urology / Department of General Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
 | 通訊作者（英文） | Chen Shu-Hung |
-| 通訊作者 Email | cgh07668@cgh.org.tw |
+| 通訊作者 Email | colonchen@gmail.com |
 | 通訊作者電話/傳真 | 0983701132（院內手機）／(02)2648-2690（傳真） |
 | 通訊作者服務機構 | Department of General Surgery, Xizhi Cathay General Hospital, New Taipei City, Taiwan |
 | 推薦審稿人 | 由編輯部指派 |
